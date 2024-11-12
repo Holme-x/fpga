@@ -1,0 +1,3 @@
+Instance Name,Instance Type,Severity,Rule,Description
+hdmi_txd0,lvds_tx,warning,lvds_rule_tx_distance,"These HSIO GPIO must be placed at least 1 pair away from LVDS hdmi_txd0 in order to avoid noise coupling from GPIO to LVDS: GPIOT_N_16,GPIOT_P_16"
+cmos_xclk,clock,warning,clock_rule_undefined_name,No clock source defined (clk_27m)

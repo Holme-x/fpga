@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "FIFO_UART_DATA",
+        "--base_path",
+        "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "11",
+        "DATA_WIDTH": "8",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "1",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PFN_INTERNAL": "126",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "0",
+        "FAMILY": "\"TRION\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\FIFO_UART_DATA_tmpl.vhd",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\FIFO_UART_DATA_tmpl.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\FIFO_UART_DATA.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\FIFO_UART_DATA_define.vh"
+        ],
+        "external_example_example": [
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\T20F256_devkit\\fifo_demo.peri.xml",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\T20F256_devkit\\fifo_demo.xml",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\T20F256_devkit\\fifo_demo_top.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\T20F256_devkit\\FIFO_UART_DATA.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\T20F256_devkit\\FIFO_UART_DATA_define.vh"
+        ],
+        "external_example_2": [
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Ti60F225_devkit\\fifo_demo.xml",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Ti60F225_devkit\\fifo_demo_top.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Ti60F225_devkit\\FIFO_UART_DATA.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Ti60F225_devkit\\FIFO_UART_DATA_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Testbench\\fifo_tb.sv",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Testbench\\xrun.sh",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Testbench\\msim.sh",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Testbench\\flist",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Testbench\\modelsim.do",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Testbench\\FIFO_UART_DATA.v",
+            "D:\\dailyFile\\FpgaContest\\yuandaima\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\FIFO_UART_DATA\\Testbench\\FIFO_UART_DATA_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-11-11T20:46:57.714101"
+}

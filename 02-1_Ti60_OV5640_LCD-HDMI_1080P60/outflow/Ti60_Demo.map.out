@@ -1,0 +1,769 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307
+[EFX-0000 INFO] Compiled: Dec 15 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/Ti60_Demo.xml"
+-- Analyzing Verilog file 'D:/Efinity/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/Ti60_Demo.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "D:/Efinity/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'D:/Efinity/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'D:/Efinity/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\hdmi_tx_ip.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\encode.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\serdes_4b_10to1.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\tmds_channel.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\KEY\KEY_CHECK.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_RX.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_TX.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v' (VERI-1482)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v(57): INFO: undeclared symbol 'rst', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v' (VERI-1482)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v(60): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip/lcd_para.v' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v(60): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v' (VERI-2320)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_para.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v' (VERI-1482)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(17): WARNING: parameter 'IDLE' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(18): WARNING: parameter 'UART_CTRL' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(19): WARNING: parameter 'KEY_SM_CTRL' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(20): WARNING: parameter 'KEY_BI_CTRL' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(21): WARNING: parameter 'TRAG_KEY' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(24): WARNING: parameter 'TIMER_10S' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_size_hang.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO\W0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\R0_FIFO\R0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\dsi_tx\dsi_tx.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\csi_rx\csi_rx.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v' (VERI-1482)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(267): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(267): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(595): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(595): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(1604): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(1604): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(1858): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(1858): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(2165): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(2165): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(2616): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(2616): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_8\W0_FIFO_8.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_64\W0_FIFO_64.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\FIFO_W48R24\FIFO_W48R24.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\R0_FIFO_16\R0_FIFO_16.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_16\W0_FIFO_16.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v' (VERI-1482)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(760): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048/bram_ini.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(760): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(987): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048/bram_decompose.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(987): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_c6ad06d4bb2e4a35bdb0888be3176e40' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v' (VERI-1482)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(760): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096/bram_ini.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(760): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(987): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096/bram_decompose.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(987): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_4454c84705f94a83848d912ff260a3e7' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\FIFO_DATA_RX\FIFO_DATA_RX.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v' (VERI-1482)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v(755): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP/bram_ini.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v(755): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v(982): INFO: analyzing included file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP/bram_decompose.vh' (VERI-1328)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v(982): INFO: back to file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v' (VERI-2320)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_5add9a567f394528b3208727d624e316' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BARM_GET_hang_Handle\BARM_GET_hang_Handle.v' (VERI-1482)
+INFO: Analysis took 0.936138 seconds.
+INFO: 	Analysis took 0.359375 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.512 MB, end = 74.184 MB, delta = 18.672 MB
+INFO: 	Analysis peak virtual memory usage = 74.184 MB
+INFO: Analysis resident set memory usage: begin = 58.648 MB, end = 78.624 MB, delta = 19.976 MB
+INFO: 	Analysis peak resident set memory usage = 78.624 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(256): WARNING: port 'cal_shift_val' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(312): WARNING: port 'TMDS_Clk_p' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(469): WARNING: port 'i_user_rx_data' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(469): WARNING: port 'i_user_rx_valid' is not connected on this instance (VERI-2435)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(3): INFO: compiling module 'example_top' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(184): WARNING: port 'wr_busy' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(184): WARNING: port 'wr_data' is not connected on this instance (VERI-2435)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(49): INFO: compiling module 'DdrCtrl' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(1859): INFO: compiling module 'efx_ddr3_soft_controller_bc08b398162e498eaa40980c1f3d5cf6' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: port '**' is not connected on this instance (VERI-2435)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: port '**' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3295): INFO: compiling module 'efx_fifo_top_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_1' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3615): INFO: compiling module 'efx_fifo_ram_bc08b398162e498eaa40980c1f3d5cf6(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3652): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(4275): INFO: compiling module 'efx_fifo_ctl_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_2' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(4695): INFO: compiling module 'efx_fifo_bin2gray_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(4148): INFO: compiling module 'efx_asyncreg_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7,ACTIVE_LOW=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3950): INFO: compiling module 'efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3950): INFO: compiling module 'efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=6)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3950): INFO: compiling module 'efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3950): INFO: compiling module 'efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=4)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3950): INFO: compiling module 'efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=3)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3950): INFO: compiling module 'efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=2)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: port '**' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: port '**' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3295): INFO: compiling module 'efx_fifo_top_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_3' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3615): INFO: compiling module 'efx_fifo_ram_bc08b398162e498eaa40980c1f3d5cf6(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(3652): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(4275): INFO: compiling module 'efx_fifo_ctl_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_4' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: input port '**' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: net '**' does not have a driver (VDB-1002)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: input port '**' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(0): WARNING: input port '**' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v(117): WARNING: input port 'wr_data[127]' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(223): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_aid' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(230): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_wid' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(239): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_bid' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(245): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_rid' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v(7): INFO: compiling module 'rgb2dvi(ENABLE_OSERDES=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\tmds_channel.v(4): INFO: compiling module 'tmds_channel' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v(50): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v(52): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v(58): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v(60): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v(66): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v(68): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(294): WARNING: actual bit length 32 differs from formal bit length 1 for port 'oe_i' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v(36): INFO: compiling module 'lcd_driver' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(335): WARNING: actual bit length 11 differs from formal bit length 12 for port 'lcd_xpos' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(336): WARNING: actual bit length 11 differs from formal bit length 12 for port 'lcd_ypos' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(414): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(418): WARNING: expression size 32 truncated to fit in target size 11 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(145): WARNING: variable 's_big_n' is used before it is assigned in an always_comb or always @* block; synthesis - simulation differences may occur (VERI-2336)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(1): INFO: compiling module 'key_all_ctrl' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(68): WARNING: expression size 32 truncated to fit in target size 22 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(164): WARNING: latch inferred for net 's_small_n' (VERI-2580)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv(24): INFO: compiling module 'UART_IF(CLK_FRAC=1488,BAUD=500000,CHECK_BIT="none")' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_TX.sv(24): INFO: compiling module 'UART_TX(CLK_FRAC=1488,BAUD=500000)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_RX.sv(24): INFO: compiling module 'UART_RX(CLK_FRAC=1488,BAUD=500000)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v(3): INFO: compiling module 'UART_DATA_WCTL' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(100): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(49): INFO: compiling module 'SYNC_BBUF_32x256_128x64' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(300): INFO: compiling module 'efx_fifo_top_2c19a540c4674c5eb55c8246f0c3a2ee_renamed_due_excessive_length_5' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(1356): INFO: compiling module 'efx_resetsync_2c19a540c4674c5eb55c8246f0c3a2ee(ACTIVE_LOW=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(1401): INFO: compiling module 'efx_asyncreg_2c19a540c4674c5eb55c8246f0c3a2ee(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(620): INFO: compiling module 'efx_fifo_ram_2c19a540c4674c5eb55c8246f0c3a2ee(FAMILY="TITANIUM",WR_DEPTH=256,RD_DEPTH=64,WDATA_WIDTH=32,RDATA_WIDTH=128,WADDR_WIDTH=8,RADDR_WIDTH=6,OUTPUT_REG=0,ENDIANESS=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(657): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(951): INFO: compiling module 'efx_fifo_ctl_2c19a540c4674c5eb55c8246f0c3a2ee_renamed_due_excessive_length_6' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(1231): WARNING: expression size 32 truncated to fit in target size 9 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(1232): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v(87): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v(2): INFO: compiling module 'IMG_RAM_TOP' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v(2): INFO: compiling module 'IMG_H_RAM' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v(106): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v(107): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v(108): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v(109): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(142): WARNING: port 'wdata_b' is not connected on this instance (VERI-2435)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(142): WARNING: port 'rdata_a' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(49): INFO: compiling module 'BRAM_16x2048' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(145): INFO: compiling module 'efx_bram_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_7' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(1613): INFO: compiling module 'efx_simple_dual_port_ram_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_8' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(931): INFO: compiling module 'bram_wrapper_mwm_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_9' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(655): INFO: compiling module 'bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_10' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10(WCLK_POLARITY=1,WCLKE_POLARITY=1,WADDREN_POLARITY=1,RCLK_POLARITY=1,RE_POLARITY=1,RST_POLARITY=1,RADDREN_POLARITY=1,READ_WIDTH=5,WRITE_WIDTH=5,OUTPUT_REG=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(655): INFO: compiling module 'bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_11' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(655): INFO: compiling module 'bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_12' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(1515): WARNING: expression size 5 truncated to fit in target size 1 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(655): INFO: compiling module 'bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_13' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(132): WARNING: input port 'wdata_b[15]' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v(132): WARNING: input port 'wclke' remains unconnected for this instance (VDB-1053)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v(2): INFO: compiling module 'IMG_RCTL' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v(105): WARNING: expression size 10 truncated to fit in target size 9 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(98): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(49): INFO: compiling module 'SYNC_DBUF_16x32_16x32' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(298): INFO: compiling module 'efx_fifo_top_70ac10c417bf46339876e239e3725f87_renamed_due_excessive_length_14' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(1354): INFO: compiling module 'efx_resetsync_70ac10c417bf46339876e239e3725f87(ACTIVE_LOW=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(1399): INFO: compiling module 'efx_asyncreg_70ac10c417bf46339876e239e3725f87(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(618): INFO: compiling module 'efx_fifo_ram_70ac10c417bf46339876e239e3725f87(FAMILY="TITANIUM",WR_DEPTH=32,RD_DEPTH=32,WDATA_WIDTH=16,RDATA_WIDTH=16,WADDR_WIDTH=5,RADDR_WIDTH=5,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(655): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(949): INFO: compiling module 'efx_fifo_ctl_70ac10c417bf46339876e239e3725f87(MODE="FWFT",WR_DEPTH=32,WADDR_WIDTH=5,RADDR_WIDTH=5,ALMOST_FLAG=0,PROG_FULL_ASSERT=4,PROG_FULL_NEGATE=4,PROG_EMPTY_NEGATE=2,HANDSHAKE_FLAG=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v(86): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v(138): WARNING: actual bit length 10 differs from formal bit length 16 for port 'wdata' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v(140): WARNING: actual bit length 10 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v(182): WARNING: actual bit length 12 differs from formal bit length 16 for port 'wdata' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v(184): WARNING: actual bit length 12 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v(2): INFO: compiling module 'AXIR_BRAMW' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v(94): WARNING: expression size 21 truncated to fit in target size 20 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v(2): INFO: compiling module 'BRAM_RW_CTL' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(142): WARNING: port 'wdata_b' is not connected on this instance (VERI-2435)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(142): WARNING: port 'rdata_a' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(49): INFO: compiling module 'BRAM_128x1024_32x4096' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(145): INFO: compiling module 'efx_bram_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_15' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(1613): INFO: compiling module 'efx_simple_dual_port_ram_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_16' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(931): INFO: compiling module 'bram_wrapper_mwm_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_17' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_18' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10(WCLK_POLARITY=1,WCLKE_POLARITY=1,WADDREN_POLARITY=1,RCLK_POLARITY=1,RE_POLARITY=1,RST_POLARITY=1,RADDREN_POLARITY=1,READ_WIDTH=2,WRITE_WIDTH=8,OUTPUT_REG=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_19' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_20' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_21' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_22' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_23' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_24' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_25' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_26' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_27' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_28' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_29' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_30' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_31' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_32' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(655): INFO: compiling module 'bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_33' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(132): WARNING: input port 'wdata_b[31]' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v(132): WARNING: input port 'wclke' remains unconnected for this instance (VDB-1053)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v(57): WARNING: net 'rst' does not have a driver (VDB-1002)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(2): INFO: compiling module 'HDMI_IMAGE' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(143): WARNING: expression size 15 truncated to fit in target size 14 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(265): WARNING: expression size 16 truncated to fit in target size 11 (VERI-1209)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(418): INFO: compiling module 'nearest' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(102): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(49): INFO: compiling module 'ASYNC_BBUF_16x1024_16x1024' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(302): INFO: compiling module 'efx_fifo_top_c0f2f336ff974fc2938197d36c688ddb_renamed_due_excessive_length_34' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(1358): INFO: compiling module 'efx_resetsync_c0f2f336ff974fc2938197d36c688ddb(ACTIVE_LOW=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(1403): INFO: compiling module 'efx_asyncreg_c0f2f336ff974fc2938197d36c688ddb(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(622): INFO: compiling module 'efx_fifo_ram_c0f2f336ff974fc2938197d36c688ddb(FAMILY="TITANIUM",WR_DEPTH=1024,RD_DEPTH=1024,WDATA_WIDTH=24,RDATA_WIDTH=24,WADDR_WIDTH=10,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(659): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(953): INFO: compiling module 'efx_fifo_ctl_c0f2f336ff974fc2938197d36c688ddb_renamed_due_excessive_length_35' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(213): INFO: compiling module 'efx_fifo_bin2gray_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(1403): INFO: compiling module 'efx_asyncreg_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11,ACTIVE_LOW=0)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=10)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=9)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=8)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=7)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=6)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=4)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=3)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(125): INFO: compiling module 'efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=2)' (VERI-1018)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v(88): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(375): WARNING: actual bit length 10 differs from formal bit length 11 for port 'wr_datacount_o' (VERI-1330)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(293): WARNING: input port 'SerialClk' is not connected on this instance (VDB-1013)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(460): WARNING: input port 'i_user_rx_data[7]' remains unconnected for this instance (VDB-1053)
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v(460): WARNING: input port 'i_user_rx_data[6]' is not connected on this instance (VDB-1013)
+INFO: Elaboration took 0.571456 seconds.
+INFO: 	Elaboration took 0.15625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 74.184 MB, end = 121.56 MB, delta = 47.376 MB
+INFO: 	Elaboration peak virtual memory usage = 121.56 MB
+INFO: Elaboration resident set memory usage: begin = 78.636 MB, end = 125.416 MB, delta = 46.78 MB
+INFO: 	Elaboration peak resident set memory usage = 125.416 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'D:/Efinity/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0365796 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 123.928 MB, end = 114.924 MB, delta = -9.004 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 128.588 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 127.788 MB, end = 118.452 MB, delta = -9.336 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 132.344 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:3652)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:3652)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][7]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][6]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][5]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][4]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][3]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][2]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][1]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][0]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[7]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[6]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[5]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[4]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[3]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[2]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[1]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[0]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][31]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][30]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][29]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][28]. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rst_i'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0266 WARNING] Module Instance 'bram_u2' input pin tied to constant (wr_en_i=1).
+[EFX-0266 WARNING] Module Instance 'bram_u2' input pin tied to constant (rd_en_i=1).
+[EFX-0266 WARNING] Module Instance 'bram_u1' input pin tied to constant (wr_en_i=1).
+[EFX-0266 WARNING] Module Instance 'bram_u1' input pin tied to constant (rd_en_i=1).
+[EFX-0266 WARNING] Module Instance 'bram_u0' input pin tied to constant (wr_en_i=1).
+[EFX-0266 WARNING] Module Instance 'bram_u0' input pin tied to constant (rd_en_i=1).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wclk=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[0]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[1]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[2]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[3]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[4]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[5]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[6]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[7]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[8]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[9]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[10]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[11]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[12]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[13]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[14]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[15]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[16]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[17]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[18]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[19]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[20]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[21]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[22]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[23]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[24]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[25]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[26]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[27]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[28]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[29]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[30]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[31]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[32]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[33]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[34]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[35]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[36]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[37]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[38]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[39]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[40]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[41]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[42]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[43]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[44]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[45]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[46]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[47]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[48]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[49]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[50]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[51]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[52]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[53]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[54]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[55]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[56]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[57]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[58]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[59]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[60]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[61]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[62]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[63]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[64]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[65]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[66]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[67]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[68]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[69]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[70]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[71]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[0]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[1]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[2]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[3]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[4]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[5]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[6]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[7]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[8]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (we=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (re=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[31]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[30]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[29]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[28]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[27]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[26]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[25]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'r_rd_fifo_wr_en_p[24]'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'fifo_rdpush' input pin tied to constant (io_push_payload[0]=1).
+[EFX-0266 WARNING] Module Instance 'fifo_rdpush' input pin tied to constant (io_pop_ready=1).
+[EFX-0266 WARNING] Module Instance 'fifo_ack' input pin tied to constant (io_pop_ready=1).
+[EFX-0266 WARNING] Module Instance 'mux0' input pin tied to constant (b_rd_en=1).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[0]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[1]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[2]=1).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[3]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[4]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[2]=0).
+[EFX-0266 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v:657)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v:655)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v:659)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "example_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=8,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=8,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40980c1f3d5cf6(DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40980c1f3d5cf6(DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=48,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=48,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_bc08b398162e498eaa40980c1f3d5cf6(OUT_RST_ACTIVE="LOW",CYCLE=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_bc08b398162e498eaa40980c1f3d5cf6(OUT_RST_ACTIVE="LOW",CYCLE=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_bc08b398162e498eaa40980c1f3d5cf6(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_bc08b398162e498eaa40980c1f3d5cf6(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_bc08b398162e498eaa40980c1f3d5cf6(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_bc08b398162e498eaa40980c1f3d5cf6(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=144)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=144)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_bc08b398162e498eaa40980c1f3d5cf6(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_bc08b398162e498eaa40980c1f3d5cf6(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7,ACTIVE_LOW=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7,ACTIVE_LOW=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=52)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=52)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_bc08b398162e498eaa40980c1f3d5cf6(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_bc08b398162e498eaa40980c1f3d5cf6(FAMILY="TITANIUM",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_bc08b398162e498eaa40980c1f3d5cf6_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_fifo_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_fifo_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_bc08b398162e498eaa40980c1f3d5cf6(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_bc08b398162e498eaa40980c1f3d5cf6(OUT_RST_ACTIVE="LOW",CYCLE=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_bc08b398162e498eaa40980c1f3d5cf6(OUT_RST_ACTIVE="LOW",CYCLE=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_bc08b398162e498eaa40980c1f3d5cf6(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_bc08b398162e498eaa40980c1f3d5cf6(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_bc08b398162e498eaa40980c1f3d5cf6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_bc08b398162e498eaa40980c1f3d5cf6" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrCtrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrCtrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "key_all_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "key_all_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_TX(CLK_FRAC=1488,BAUD=500000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_TX(CLK_FRAC=1488,BAUD=500000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_RX(CLK_FRAC=1488,BAUD=500000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_RX(CLK_FRAC=1488,BAUD=500000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_IF(CLK_FRAC=1488,BAUD=500000,CHECK_BIT="none")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_IF(CLK_FRAC=1488,BAUD=500000,CHECK_BIT="none")" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_2c19a540c4674c5eb55c8246f0c3a2ee(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_2c19a540c4674c5eb55c8246f0c3a2ee(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_resetsync_2c19a540c4674c5eb55c8246f0c3a2ee(ACTIVE_LOW=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_resetsync_2c19a540c4674c5eb55c8246f0c3a2ee(ACTIVE_LOW=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_2c19a540c4674c5eb55c8246f0c3a2ee(FAMILY="TITANIUM",WR_DEPTH=256,RD_DEPTH=64,WDATA_WIDTH=32,RDATA_WIDTH=128,WADDR_WIDTH=8,RADDR_WIDTH=6,OUTPUT_REG=0,ENDIANESS=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_2c19a540c4674c5eb55c8246f0c3a2ee(FAMILY="TITANIUM",WR_DEPTH=256,RD_DEPTH=64,WDATA_WIDTH=32,RDATA_WIDTH=128,WADDR_WIDTH=8,RADDR_WIDTH=6,OUTPUT_REG=0,ENDIANESS=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_2c19a540c4674c5eb55c8246f0c3a2ee_renamed_due_excessive_length_6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_2c19a540c4674c5eb55c8246f0c3a2ee_renamed_due_excessive_length_6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_2c19a540c4674c5eb55c8246f0c3a2ee_renamed_due_excessive_length_5" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_2c19a540c4674c5eb55c8246f0c3a2ee_renamed_due_excessive_length_5" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SYNC_BBUF_32x256_128x64" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SYNC_BBUF_32x256_128x64" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_DATA_WCTL" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UART_DATA_WCTL" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_10" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_10" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_11" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_11" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_12" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_12" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_13" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_13" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_9" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_9" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_7" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_c6ad06d4bb2e4a35bdb0888be3176e40_renamed_due_excessive_length_7" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRAM_16x2048" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRAM_16x2048" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "IMG_H_RAM" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "IMG_H_RAM" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_70ac10c417bf46339876e239e3725f87(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_70ac10c417bf46339876e239e3725f87(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_resetsync_70ac10c417bf46339876e239e3725f87(ACTIVE_LOW=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_resetsync_70ac10c417bf46339876e239e3725f87(ACTIVE_LOW=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_70ac10c417bf46339876e239e3725f87(FAMILY="TITANIUM",WR_DEPTH=32,RD_DEPTH=32,WDATA_WIDTH=16,RDATA_WIDTH=16,WADDR_WIDTH=5,RADDR_WIDTH=5,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_70ac10c417bf46339876e239e3725f87(FAMILY="TITANIUM",WR_DEPTH=32,RD_DEPTH=32,WDATA_WIDTH=16,RDATA_WIDTH=16,WADDR_WIDTH=5,RADDR_WIDTH=5,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_70ac10c417bf46339876e239e3725f87(MODE="FWFT",WR_DEPTH=32,WADDR_WIDTH=5,RADDR_WIDTH=5,ALMOST_FLAG=0,PROG_FULL_ASSERT=4,PROG_FULL_NEGATE=4,PROG_EMPTY_NEGATE=2,HANDSHAKE_FLAG=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_70ac10c417bf46339876e239e3725f87(MODE="FWFT",WR_DEPTH=32,WADDR_WIDTH=5,RADDR_WIDTH=5,ALMOST_FLAG=0,PROG_FULL_ASSERT=4,PROG_FULL_NEGATE=4,PROG_EMPTY_NEGATE=2,HANDSHAKE_FLAG=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_70ac10c417bf46339876e239e3725f87_renamed_due_excessive_length_14" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_70ac10c417bf46339876e239e3725f87_renamed_due_excessive_length_14" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SYNC_DBUF_16x32_16x32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SYNC_DBUF_16x32_16x32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "IMG_RCTL" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "IMG_RCTL" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AXIR_BRAMW" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AXIR_BRAMW" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_18" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_18" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_19" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_19" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_20" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_20" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_21" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_21" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_22" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_22" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_23" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_23" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_24" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_24" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_25" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_25" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_26" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_26" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_27" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_27" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_28" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_28" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_29" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_29" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_30" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_30" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_31" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_31" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_33" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_33" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_17" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_17" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_16" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_16" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_15" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_4454c84705f94a83848d912ff260a3e7_renamed_due_excessive_length_15" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRAM_128x1024_32x4096" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRAM_128x1024_32x4096" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRAM_RW_CTL" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRAM_RW_CTL" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "IMG_RAM_TOP" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "IMG_RAM_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "nearest" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "nearest" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_c0f2f336ff974fc2938197d36c688ddb(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_c0f2f336ff974fc2938197d36c688ddb(WIDTH=1,ACTIVE_LOW=0,RST_VALUE=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_resetsync_c0f2f336ff974fc2938197d36c688ddb(ACTIVE_LOW=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_resetsync_c0f2f336ff974fc2938197d36c688ddb(ACTIVE_LOW=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_c0f2f336ff974fc2938197d36c688ddb(FAMILY="TITANIUM",WR_DEPTH=1024,RD_DEPTH=1024,WDATA_WIDTH=24,RDATA_WIDTH=24,WADDR_WIDTH=10,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_c0f2f336ff974fc2938197d36c688ddb(FAMILY="TITANIUM",WR_DEPTH=1024,RD_DEPTH=1024,WDATA_WIDTH=24,RDATA_WIDTH=24,WADDR_WIDTH=10,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11,ACTIVE_LOW=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_asyncreg_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11,ACTIVE_LOW=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_c0f2f336ff974fc2938197d36c688ddb(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_c0f2f336ff974fc2938197d36c688ddb_renamed_due_excessive_length_35" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_c0f2f336ff974fc2938197d36c688ddb_renamed_due_excessive_length_35" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_c0f2f336ff974fc2938197d36c688ddb_renamed_due_excessive_length_34" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_c0f2f336ff974fc2938197d36c688ddb_renamed_due_excessive_length_34" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ASYNC_BBUF_16x1024_16x1024" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ASYNC_BBUF_16x1024_16x1024" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "HDMI_IMAGE" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "HDMI_IMAGE" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 965 flops.
+[EFX-0688 INFO] Cannot infer shift registers from 'u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_rd_fifo_wr_en_p[0]' (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0) to 'u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_rd_fifo_wr_en_p[17]' (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0). Shift registers with both dynamic address and reset not supported.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" end (Real time : 4s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 3525, ed: 11129, lv: 23, pw: 10694.92
+[EFX-0000 INFO] ... LUT mapping end (Real time : 11s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port clk_24m is unconnected and will be removed
+WARNING: Input/Inout Port clk_25m is unconnected and will be removed
+WARNING: Input/Inout Port clk_27m is unconnected and will be removed
+WARNING: Input/Inout Port clk_sys is unconnected and will be removed
+WARNING: Input/Inout Port clk_pixel_10x is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[0] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[0] is unconnected and will be removed
+INFO: Found 9 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.129376 seconds.
+INFO: 	VDB Netlist Checker took 0.0625 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 175.708 MB, end = 175.708 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 186.956 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 179.652 MB, end = 179.712 MB, delta = 0.06 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 187.688 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'example_top' to Verilog file 'D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/outflow/Ti60_Demo.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	1052
+[EFX-0000 INFO] EFX_LUT4        : 	3449
+[EFX-0000 INFO] EFX_DSP48       : 	3
+[EFX-0000 INFO] EFX_FF          : 	3615
+[EFX-0000 INFO] EFX_SRL8        : 	350
+[EFX-0000 INFO] EFX_RAM10       : 	72
+[EFX-0000 INFO] =============================== 

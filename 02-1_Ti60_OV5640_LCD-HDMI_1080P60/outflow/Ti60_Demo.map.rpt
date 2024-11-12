@@ -1,0 +1,1287 @@
+Efinity Synthesis report for project Ti60_Demo
+Version: 2023.2.307
+Generated at: Nov 12, 2024 16:54:51
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : example_top
+
+### ### File List (begin) ### ### ###
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\hdmi_tx_ip.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\encode.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\serdes_4b_10to1.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\tmds_channel.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\KEY\KEY_CHECK.sv
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_RX.sv
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_TX.sv
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_para.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_size_hang.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO\W0_FIFO.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\R0_FIFO\R0_FIFO.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\dsi_tx\dsi_tx.sv
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\csi_rx\csi_rx.sv
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_8\W0_FIFO_8.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_64\W0_FIFO_64.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\FIFO_W48R24\FIFO_W48R24.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\R0_FIFO_8\R0_FIFO_8.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\R0_FIFO_16\R0_FIFO_16.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_32\W0_FIFO_32.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\W0_FIFO_16\W0_FIFO_16.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\BRAM_16x2048.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\BRAM_128x1024_32x4096.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\FIFO_DATA_RX\FIFO_DATA_RX.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\RAM_GET_TEMP\RAM_GET_TEMP.v
+D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BARM_GET_hang_Handle\BARM_GET_hang_Handle.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:3652)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:3652)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_BBUF_32x256_128x64\SYNC_BBUF_32x256_128x64.v:657)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\SYNC_DBUF_16x32_16x32\SYNC_DBUF_16x32_16x32.v:655)
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\ASYNC_BBUF_16x1024_16x1024\ASYNC_BBUF_16x1024_16x1024.v:659)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 128
+Total number of FFs with enable signals: 1306
+CE signal <frst_pos>, number of controlling flip flops: 5
+CE signal <ceg_net4077>, number of controlling flip flops: 11
+CE signal <s_ddr_init_done>, number of controlling flip flops: 1
+CE signal <ceg_net8>, number of controlling flip flops: 29
+CE signal <ceg_net11>, number of controlling flip flops: 29
+CE signal <ceg_net545>, number of controlling flip flops: 45
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/equal_77/n7>, number of controlling flip flops: 10
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/n1230>, number of controlling flip flops: 2
+CE signal <ceg_net382>, number of controlling flip flops: 9
+CE signal <ceg_net2990>, number of controlling flip flops: 16
+CE signal <ceg_net547>, number of controlling flip flops: 16
+CE signal <AXI_RVALID>, number of controlling flip flops: 16
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_arburst_fifo/Fifo_Wr_En>, number of controlling flip flops: 6
+CE signal <ceg_net583>, number of controlling flip flops: 6
+CE signal <ceg_net613>, number of controlling flip flops: 6
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/u_wr_addr_fifo/Fifo_Wr_En>, number of controlling flip flops: 25
+CE signal <ceg_net655>, number of controlling flip flops: 6
+CE signal <ceg_net691>, number of controlling flip flops: 6
+CE signal <ceg_net721>, number of controlling flip flops: 6
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_respon_fifo/Fifo_Wr_En>, number of controlling flip flops: 1
+CE signal <ceg_net757>, number of controlling flip flops: 6
+CE signal <ceg_net799>, number of controlling flip flops: 6
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_rd_last_fifo/Fifo_Wr_En>, number of controlling flip flops: 1
+CE signal <ceg_net829>, number of controlling flip flops: 6
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_respon_len_fifo/Fifo_Wr_En>, number of controlling flip flops: 1
+CE signal <ceg_net865>, number of controlling flip flops: 6
+CE signal <ceg_net4513>, number of controlling flip flops: 4
+CE signal <ceg_net3607>, number of controlling flip flops: 2
+CE signal <ceg_net885>, number of controlling flip flops: 2
+CE signal <ceg_net4120>, number of controlling flip flops: 32
+CE signal <ceg_net4702>, number of controlling flip flops: 32
+CE signal <ceg_net3017>, number of controlling flip flops: 1
+CE signal <ceg_net3019>, number of controlling flip flops: 1
+CE signal <ceg_net902>, number of controlling flip flops: 1
+CE signal <ceg_net4028>, number of controlling flip flops: 3
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/n12007>, number of controlling flip flops: 8
+CE signal <ceg_net1078>, number of controlling flip flops: 3
+CE signal <ceg_net2600>, number of controlling flip flops: 4
+CE signal <ceg_net4037>, number of controlling flip flops: 4
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/n11875>, number of controlling flip flops: 4
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/n11204>, number of controlling flip flops: 11
+CE signal <ceg_net2638>, number of controlling flip flops: 4
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/_zz_16>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/n212>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/_zz_16>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/n212>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/_zz_16>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/n548>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/_zz_16>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/io_pop_valid>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/wr_en_int>, number of controlling flip flops: 7
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/_zz_16>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/w_ack_rd_valid>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/_zz_16>, number of controlling flip flops: 13
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/n272>, number of controlling flip flops: 13
+CE signal <ceg_net1092>, number of controlling flip flops: 1
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u2/full_o>, number of controlling flip flops: 7
+CE signal <ceg_net1098>, number of controlling flip flops: 2
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n777>, number of controlling flip flops: 2
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n6772>, number of controlling flip flops: 2
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/w_init_done>, number of controlling flip flops: 60
+CE signal <ceg_net4543>, number of controlling flip flops: 3
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n6867>, number of controlling flip flops: 1
+CE signal <ceg_net1121>, number of controlling flip flops: 1
+CE signal <ceg_net1282>, number of controlling flip flops: 8
+CE signal <ceg_net1131>, number of controlling flip flops: 1
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n6862>, number of controlling flip flops: 1
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n6859>, number of controlling flip flops: 1
+CE signal <ceg_net1135>, number of controlling flip flops: 1
+CE signal <ceg_net3129>, number of controlling flip flops: 16
+CE signal <ceg_net1142>, number of controlling flip flops: 17
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n6866>, number of controlling flip flops: 1
+CE signal <ceg_net1148>, number of controlling flip flops: 2
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n6773>, number of controlling flip flops: 1
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_ref_rst>, number of controlling flip flops: 1
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n6767>, number of controlling flip flops: 1
+CE signal <ceg_net1196>, number of controlling flip flops: 14
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u1/full_o>, number of controlling flip flops: 7
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u0/full_o>, number of controlling flip flops: 7
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/n2454>, number of controlling flip flops: 3
+CE signal <ceg_net3193>, number of controlling flip flops: 16
+CE signal <ceg_net3257>, number of controlling flip flops: 16
+CE signal <ceg_net3321>, number of controlling flip flops: 16
+CE signal <ceg_net3385>, number of controlling flip flops: 16
+CE signal <ceg_net3449>, number of controlling flip flops: 16
+CE signal <ceg_net3513>, number of controlling flip flops: 16
+CE signal <ceg_net3577>, number of controlling flip flops: 16
+CE signal <ceg_net1950>, number of controlling flip flops: 1
+CE signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/n11265>, number of controlling flip flops: 15
+CE signal <u_lcd_driver/equal_15/n23>, number of controlling flip flops: 12
+CE signal <ceg_net4094>, number of controlling flip flops: 3
+CE signal <u_UART_IF/u_UART_TX/n226>, number of controlling flip flops: 10
+CE signal <u_UART_IF/u_UART_RX/n31>, number of controlling flip flops: 10
+CE signal <u_UART_IF/u_UART_RX/n137>, number of controlling flip flops: 8
+CE signal <s_user_rx_valid>, number of controlling flip flops: 3
+CE signal <u_UART_DATA_WCTL/n773>, number of controlling flip flops: 24
+CE signal <ceg_net2775>, number of controlling flip flops: 2
+CE signal <ceg_net2810>, number of controlling flip flops: 5
+CE signal <ceg_net2785>, number of controlling flip flops: 1
+CE signal <u_UART_DATA_WCTL/r_i_rgb_vld>, number of controlling flip flops: 8
+CE signal <u_IMG_RAM_TOP/u_IMG_H_RAM/r_resize_vld>, number of controlling flip flops: 62
+CE signal <u_IMG_RAM_TOP/u_IMG_H_RAM/r_h_vld>, number of controlling flip flops: 16
+CE signal <ceg_net2814>, number of controlling flip flops: 1
+CE signal <u_IMG_RAM_TOP/u_IMG_H_RAM/r_org_h_vld>, number of controlling flip flops: 11
+CE signal <r_coe_vld>, number of controlling flip flops: 28
+CE signal <u_IMG_RAM_TOP/u_IMG_RCTL/r_h_ram_re>, number of controlling flip flops: 1
+CE signal <ceg_net2863>, number of controlling flip flops: 9
+CE signal <u_IMG_RAM_TOP/s_h_ram_vld>, number of controlling flip flops: 15
+CE signal <u_IMG_RAM_TOP/s_read_req_vld>, number of controlling flip flops: 19
+CE signal <ceg_net2823>, number of controlling flip flops: 1
+CE signal <u_IMG_RAM_TOP/u_IMG_RCTL/r_req_h_vld[0]>, number of controlling flip flops: 6
+CE signal <u_IMG_RAM_TOP/u_IMG_RCTL/n226>, number of controlling flip flops: 6
+CE signal <ceg_net2868>, number of controlling flip flops: 14
+CE signal <u_IMG_RAM_TOP/s_bram_we>, number of controlling flip flops: 8
+CE signal <u_IMG_RAM_TOP/u_AXIR_BRAMW/n708>, number of controlling flip flops: 3
+CE signal <ceg_net2873>, number of controlling flip flops: 1
+CE signal <u_HDMI_IMAGE/n40>, number of controlling flip flops: 10
+CE signal <u_HDMI_IMAGE/s_wr0_en>, number of controlling flip flops: 7
+CE signal <ceg_net2943>, number of controlling flip flops: 1
+CE signal <u_HDMI_IMAGE/s_8row_check_done>, number of controlling flip flops: 6
+CE signal <u_HDMI_IMAGE/s_hdmi_en>, number of controlling flip flops: 11
+CE signal <u_HDMI_IMAGE/s_rgb_wr>, number of controlling flip flops: 1
+CE signal <s_bram_rvld>, number of controlling flip flops: 3
+CE signal <u_HDMI_IMAGE/r_dn_vld>, number of controlling flip flops: 96
+CE signal <ceg_net2948>, number of controlling flip flops: 1
+CE signal <ceg_net2968>, number of controlling flip flops: 4
+CE signal <u_HDMI_IMAGE/r_4pixel_vld>, number of controlling flip flops: 24
+CE signal <u_HDMI_IMAGE/r_rgb_we>, number of controlling flip flops: 10
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 44
+Total number of FFs with set/reset signals: 3221
+SR signal <w_pll_lock>, number of controlling flip flops: 2
+SR signal <sys_rst>, number of controlling flip flops: 188
+SR signal <n1199_2>, number of controlling flip flops: 4
+SR signal <rstn_sys>, number of controlling flip flops: 71
+SR signal <s_ddr_init_done>, number of controlling flip flops: 177
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_arburst_fifo/n332>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/u_rd_addr_fifo/n860>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/u_wr_addr_fifo/n1212>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_awid_fifo/n332>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_arid_fifo/n332>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_respon_fifo/n332>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_rd_brust_fifo/n332>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_rd_last_fifo/n332>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_respon_len_fifo/n332>, number of controlling flip flops: 1
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/logic_rstn>, number of controlling flip flops: 227
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/w_init_done>, number of controlling flip flops: 5
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/core_clk_rstn>, number of controlling flip flops: 814
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/tdqss_clk_rstn>, number of controlling flip flops: 104
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/clk_rstn>, number of controlling flip flops: 144
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/twd_clk_rstn>, number of controlling flip flops: 680
+SR signal <u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/tac_clk_rstn>, number of controlling flip flops: 289
+SR signal <s_hdmi_de>, number of controlling flip flops: 35
+SR signal <key_all_ctrl_inist/n582>, number of controlling flip flops: 1
+SR signal <key_all_ctrl_inist/n480>, number of controlling flip flops: 32
+SR signal <key_all_ctrl_inist/n562>, number of controlling flip flops: 1
+SR signal <u_UART_IF/u_UART_TX/n227>, number of controlling flip flops: 9
+SR signal <u_UART_IF/u_UART_RX/n253>, number of controlling flip flops: 2
+SR signal <u_UART_DATA_WCTL/n771>, number of controlling flip flops: 28
+SR signal <u_UART_DATA_WCTL/n492>, number of controlling flip flops: 31
+SR signal <u_UART_DATA_WCTL/n790>, number of controlling flip flops: 1
+SR signal <u_UART_DATA_WCTL/u_WBUF/rst_busy>, number of controlling flip flops: 14
+SR signal <u_IMG_RAM_TOP/u_IMG_H_RAM/n1149>, number of controlling flip flops: 27
+SR signal <frst>, number of controlling flip flops: 158
+SR signal <u_IMG_RAM_TOP/u_IMG_RCTL/u_FIX_H_BUF/rst_busy>, number of controlling flip flops: 18
+SR signal <u_IMG_RAM_TOP/u_IMG_RCTL/u_RREQ_BUF/rst_busy>, number of controlling flip flops: 18
+SR signal <u_IMG_RAM_TOP/u_IMG_RCTL/u_8ROW_H_BUF/rst_busy>, number of controlling flip flops: 18
+SR signal <u_IMG_RAM_TOP/u_AXIR_BRAMW/n760>, number of controlling flip flops: 2
+SR signal <u_HDMI_IMAGE/n1823>, number of controlling flip flops: 7
+SR signal <u_HDMI_IMAGE/n1722>, number of controlling flip flops: 4
+SR signal <u_HDMI_IMAGE/n1723>, number of controlling flip flops: 12
+SR signal <u_HDMI_IMAGE/n1729>, number of controlling flip flops: 24
+SR signal <u_HDMI_IMAGE/equal_115/n19>, number of controlling flip flops: 1
+SR signal <u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/rd_rst_int>, number of controlling flip flops: 22
+SR signal <u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/wr_rst_int>, number of controlling flip flops: 42
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Memory Trimming Report (begin) ### ### ### 
+Memory instance 'u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/ram' WE[1] tied off to 0.
+Memory instance 'u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u2/u_efx_fifo_top/xefx_fifo_ram/ram' WE[1] tied off to 1.
+Memory instance 'u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u1/u_efx_fifo_top/xefx_fifo_ram/ram' WE[1] tied off to 1.
+Memory instance 'u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u0/u_efx_fifo_top/xefx_fifo_ram/ram' WE[1] tied off to 1.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12' WE[1] tied off to 0.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$c2' WE[1] tied off to 0.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$2b1' WE[1] tied off to 0.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$c1' WE[1] tied off to 0.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$121' WE[1] tied off to 0.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$b21' WE[1] tied off to 0.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$212' WE[1] tied off to 0.
+Memory instance 'u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$1b2' WE[1] tied off to 0.
+Memory instance 'u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$2' WE[1] tied off to 0.
+Memory instance 'u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$12' WE[1] tied off to 0.
+Memory instance 'u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$b1' WE[1] tied off to 0.
+### ### Memory Trimming Report (end) ### ### ### 
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/dff_63/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/dff_62/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/dff_55/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rdpush/dff_54/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/dff_63/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/dff_62/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/dff_63/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/dff_62/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/dff_63/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/dff_62/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/dff_55/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/dff_54/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/dff_55/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/dff_54/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/dff_63/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/dff_62/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/dff_55/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/dff_54/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/dff_55/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/dff_54/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i35
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i31
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i22
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i31
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i19
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i26
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i27
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i28
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i29
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i17
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i30
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i32
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i1
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i3
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i4
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i6
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i8
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i9
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i10
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i11
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i12
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i13
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i14
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i15
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i16
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i33
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i34
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i21
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i36
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i37
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i38
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i21
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i40
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i41
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i43
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i39
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i44
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i45
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i46
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i47
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i48
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i49
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i51
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i52
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i53
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i55
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i56
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i57
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i59
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i60
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i61
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i63
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i39
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i64
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i65
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i66
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i67
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i68
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i69
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i70
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i71
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i17
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i72
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i73
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i74
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i75
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i76
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i77
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i78
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i79
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i80
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i81
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i21
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i82
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i83
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i84
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i85
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i25
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i86
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i88
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i89
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i90
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i91
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i54
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i92
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i93
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i17
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i94
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i95
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i96
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i98
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i99
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i54
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i100
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i50
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i101
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i102
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i42
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i103
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i54
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i104
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i105
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i50
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i106
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i25
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i108
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i50
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i110
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i21
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i111
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i54
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i112
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i113
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i114
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i50
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i115
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i50
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i116
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i117
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i118
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i54
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i120
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i121
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i122
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i54
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i123
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i124
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i125
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i126
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i127
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i58
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i128
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/dff_734/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/dff_63/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/dff_62/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/dff_55/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/dff_54/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1607
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1599
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1608
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1600
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1598
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1589
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1581
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/i1591
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_946/i2
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_946/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_945/i2
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_946/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_945/i1
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_946/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i1
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i17
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i2
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i18
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i3
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i19
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i4
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i5
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i21
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i6
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i22
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (413)" removed instance : u_HDMI_IMAGE/dff_210/i8
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v (361)" representative instance : u_HDMI_IMAGE/dff_189/i24
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i15
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i15
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i14
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i14
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i13
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i13
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i12
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i12
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i11
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i11
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i10
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i10
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i9
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i9
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i8
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i8
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i7
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i6
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i6
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i5
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i5
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i4
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i4
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i3
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i3
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i2
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i2
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i1
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_679/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i1
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_680/i16
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_948/i1
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_948/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_949/i2
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_948/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" removed instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_949/i1
+@ "D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v (0)" representative instance : u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dff_948/i2
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_addr_en(=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[3](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[4](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[5](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[6](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[7](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[8](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[9](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[10](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[11](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[12](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[13](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[14](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_datamask[15](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_first_pass[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_last_pass[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_first_pass_round[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_last_pass_round[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_val_round[0](=0)
+FF Output: o_dqs_hi[1](=0)
+FF Output: o_dqs_hi[0](=0)
+FF Output: o_dqs_n_lo[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dqs_writing(=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/next_write(=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/odt_cnt[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_wr_ack_p1(=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/Latency_counter[0](=0)
+FF Output: o_dqs_n_lo[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/ram_rd_ack_ap[3](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_data[61](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_data[86](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_data[96](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_data[106](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_data[108](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_data[118](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[3](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[4](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[5](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[6](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[7](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[8](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[9](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[10](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[11](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[12](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[13](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[14](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_wr_datamask[15](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[3](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[4](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[5](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[6](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[7](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[8](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[9](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[10](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[11](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[12](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[13](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[14](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/inc_addr_p[15](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_first_pass[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_first_pass[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_last_pass[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_last_pass[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_first_pass_round[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_first_pass_round[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_first_pass_round[3](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_last_pass_round[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_last_pass_round[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/r_last_pass_round[3](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_val_round[1](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/cal_val_round[2](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[7](=0)
+FF Output: AXI_AWADDR[4](=0)
+FF Output: AXI_AWADDR[5](=0)
+FF Output: AXI_AWADDR[6](=0)
+FF Output: AXI_AWADDR[7](=0)
+FF Output: AXI_AWADDR[8](=0)
+FF Output: u_IMG_RAM_TOP/u_IMG_H_RAM/r_resize_height[20](=0)
+FF Output: AXI_ARADDR[4](=0)
+FF Output: AXI_ARADDR[5](=0)
+FF Output: AXI_ARADDR[6](=0)
+FF Output: AXI_ARADDR[7](=0)
+FF Output: AXI_ARADDR[8](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[6](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[5](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[4](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[3](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[2](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[1](=0)
+FF Output: u_UART_IF/u_UART_TX/r_bit1_cnt[1](=0)
+FF Output: u_UART_IF/u_UART_TX/r_bit1_cnt[2](=0)
+FF Output: u_UART_IF/u_UART_TX/r_bit1_cnt[3](=0)
+FF Output: u_UART_IF/u_UART_TX/r_tx_data[0](=0)
+FF Output: u_UART_IF/u_UART_TX/r_bit1_cnt[0](=0)
+FF Output: u_IMG_RAM_TOP/u_IMG_H_RAM/r_resize_width[6](=0)
+FF Output: s_roi_bw[0](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_ar_state[3](=0)
+FF Output: n7745(=1)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/next_read(=1)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dqs_state[2](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dqs_state[3](=0)
+FF Output: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/arbiter_counter[3](=0)
+FF Output: u_IMG_RAM_TOP/u_IMG_H_RAM/r_roi_eh[15](=0)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[0]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_addr[29]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_addr[30]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_wr_addr[31]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_rd_addr[29]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_rd_addr[30]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_i_rd_addr[31]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[1]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[2]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[3]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[4]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[5]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[6]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[7]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[8]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[9]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[10]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[11]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[12]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[13]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[14]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/r_wr_cnt[15]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[0]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[1]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[2]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[3]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[4]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[5]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[6]~FF(unreachable)
+FF instance: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/pipe_cnt[7]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[0]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_sync_ff[1]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_sync_ff[0]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[1]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[2]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[3]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[4]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[5]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[6]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[7]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[8]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[9]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[10]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[11]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[12]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[13]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[14]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[15]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[16]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[17]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[18]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[19]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[20]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_timer[21]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_sync_ff[2]~FF(unreachable)
+FF instance: key_all_ctrl_inist/key_sync_ff[3]~FF(unreachable)
+FF instance: u_UART_IF/u_UART_RX/r_bit1_cnt[0]~FF(unreachable)
+FF instance: u_UART_IF/u_UART_RX/r_bit1_cnt[1]~FF(unreachable)
+FF instance: u_UART_IF/u_UART_RX/r_bit1_cnt[2]~FF(unreachable)
+FF instance: u_UART_IF/u_UART_RX/r_bit1_cnt[3]~FF(unreachable)
+FF instance: u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ctl/raddr_cntr[6]~FF(unreachable)
+FF instance: u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ctl/waddr_cntr[8]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[0]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[0]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[0]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/xefx_fifo_ctl/waddr_cntr[10]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[1]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[2]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[3]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[4]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[5]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[6]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[7]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[8]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[9]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_h[10]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[1]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[2]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[3]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[4]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[5]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[6]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[7]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[8]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[9]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_o_w[10]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[1]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[2]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[3]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[4]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[5]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[6]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[7]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[8]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[9]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[10]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[11]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[12]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[13]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[14]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[15]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[16]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[17]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[18]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[19]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[20]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[21]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[22]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[23]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[24]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[25]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[26]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[27]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[28]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[29]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[30]~FF(unreachable)
+FF instance: u_HDMI_IMAGE/r_sum[31]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        SRLs        ADDs        LUTs    COMB4s      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----        ----      ----      ---- ---------
+example_top:example_top                                         3615(32)      350(0)    1052(76)   3449(279)      0(0)     72(0)      3(0)
+ +u_DDR_CTL:DdrCtrl                                              2538(0)      350(0)      504(0)     2487(0)      0(0)     30(0)      0(0)
+  +u_efx_ddr3_soft_controller:efx_ddr3_soft_controller_bc...     2538(0)      350(0)      504(0)     2487(0)      0(0)     30(0)      0(0)
+   +genblk1.inst_ddr3_axi:efx_ddr3_axi_bc08b398162e498eaa...   2538(195)      350(0)    504(131)   2487(249)      0(0)     30(0)      0(0)
+    +inst_arburst_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498ea...        7(7)        8(8)      12(12)      25(25)      0(0)      0(0)      0(0)
+    +u_rd_addr_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40...        7(7)    116(116)      12(12)      74(74)      0(0)      0(0)      0(0)
+    +u_wr_addr_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40...        7(7)    124(124)      12(12)      78(78)      0(0)      0(0)      0(0)
+    +inst_awid_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40...        7(7)        0(0)      12(12)      11(11)      0(0)      0(0)      0(0)
+    +inst_arid_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa40...        7(7)        4(4)      12(12)      20(20)      0(0)      0(0)      0(0)
+    +inst_respon_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498eaa...        7(7)        0(0)      12(12)      13(13)      0(0)      0(0)      0(0)
+    +inst_rd_brust_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498e...        7(7)      32(32)      12(12)      31(31)      0(0)      0(0)      0(0)
+    +inst_rd_last_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e498ea...        7(7)      32(32)      12(12)      33(33)      0(0)      0(0)      0(0)
+    +inst_respon_len_fifo:Ddr_Ctrl_Sc_Fifo_bc08b398162e49...        7(7)      32(32)      12(12)      35(35)      0(0)      0(0)      0(0)
+    +inst_efx_ddr3:top_bc08b398162e498eaa40980c1f3d5cf6        2280(212)        2(0)     265(64)   1918(623)      0(0)     30(0)      0(0)
+     +top_mc:controller_top_bc08b398162e498eaa40980c1f3d5cf6    2056(29)        0(0)      201(0)    1283(32)      0(0)     30(0)      0(0)
+      +rst_ctrl0:reset_ctrl_bc08b398162e498eaa40980c1f3d5...       16(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+       +genblk1[0].genblk1.genblk1.inst_sysclk_rstn:reset...        4(4)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+       +genblk1[1].genblk1.genblk1.inst_sysclk_rstn:reset...        4(4)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+       +genblk1[2].genblk1.genblk1.inst_sysclk_rstn:reset...        4(4)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+       +genblk1[3].genblk1.genblk1.inst_sysclk_rstn:reset...        4(4)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+      +rst_ctrl1:reset_ctrl_bc08b398162e498eaa40980c1f3d5...        4(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+       +genblk1[0].genblk1.genblk1.inst_sysclk_rstn:reset...        4(4)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+      +fifo_ar:streamfifocc64_bc08b398162e498eaa40980c1f3...      54(26)        0(0)        8(8)      67(55)      0(0)      2(2)      0(0)
+       +popToPushGray_buffercc:buffercc_bc08b398162e498ea...      14(14)        0(0)        0(0)        8(8)      0(0)      0(0)      0(0)
+       +pushToPopGray_buffercc:buffercc_1_bc08b398162e498...      14(14)        0(0)        0(0)        4(4)      0(0)      0(0)      0(0)
+      +fifo_aw:streamfifocc64_bc08b398162e498eaa40980c1f3...      54(26)        0(0)        8(8)      54(43)      0(0)      2(2)      0(0)
+       +popToPushGray_buffercc:buffercc_bc08b398162e498ea...      14(14)        0(0)        0(0)        8(8)      0(0)      0(0)      0(0)
+       +pushToPopGray_buffercc:buffercc_1_bc08b398162e498...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+      +fifo_wr:streamfifocc64_bc08b398162e498eaa40980c1f3...      54(26)        0(0)        8(8)      53(43)      0(0)      8(8)      0(0)
+       +popToPushGray_buffercc:buffercc_bc08b398162e498ea...      14(14)        0(0)        0(0)        8(8)      0(0)      0(0)      0(0)
+       +pushToPopGray_buffercc:buffercc_1_bc08b398162e498...      14(14)        0(0)        0(0)        2(2)      0(0)      0(0)      0(0)
+      +fifo_rdpush:streamfifocc64_bc08b398162e498eaa40980...      54(26)        0(0)        8(8)      44(30)      0(0)      0(0)      0(0)
+       +popToPushGray_buffercc:buffercc_bc08b398162e498ea...      14(14)        0(0)        0(0)        4(4)      0(0)      0(0)      0(0)
+       +pushToPopGray_buffercc:buffercc_1_bc08b398162e498...      14(14)        0(0)        0(0)      10(10)      0(0)      0(0)      0(0)
+      +fifo_rd:efx_fifo_top_bc08b398162e498eaa40980c1f3d5...       71(0)        0(0)       27(0)      114(0)      0(0)      7(0)      0(0)
+       +xefx_fifo_ram:efx_fifo_ram_bc08b398162e498eaa4098...        0(0)        0(0)        0(0)      77(77)      0(0)      7(7)      0(0)
+       +xefx_fifo_ctl:efx_fifo_ctl_bc08b398162e498eaa4098...      71(43)        0(0)      27(27)      37(13)      0(0)      0(0)      0(0)
+        +async_clk.xrd2wr_bin2gray:efx_fifo_bin2gray_bc08...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+        +async_clk.xrd2wr_addr_sync:efx_asyncreg_bc08b398...      14(14)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+        +async_clk.xrd2wr_gray2bin:efx_fifo_gray2bin_bc08...        0(0)        0(0)        0(0)        6(1)      0(0)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_bc...        0(0)        0(0)        0(0)        5(1)      0(0)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b...        0(0)        0(0)        0(0)        4(1)      0(0)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        0(0)        3(1)      0(0)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        0(0)        2(1)      0(0)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        0(0)        1(1)      0(0)      0(0)      0(0)
+        +async_clk.wr2rd_bin2gray:efx_fifo_bin2gray_bc08b...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+        +async_clk.wr2rd_addr_sync:efx_asyncreg_bc08b3981...      14(14)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+        +async_clk.wr2rd_gray2bin:efx_fifo_gray2bin_bc08b...        0(0)        0(0)        0(0)        6(1)      0(0)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_bc...        0(0)        0(0)        0(0)        5(1)      0(0)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b...        0(0)        0(0)        0(0)        4(1)      0(0)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        0(0)        3(1)      0(0)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        0(0)        2(1)      0(0)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        0(0)        1(1)      0(0)      0(0)      0(0)
+      +fifo_ack:streamfifocc64_bc08b398162e498eaa40980c1f...      54(26)        0(0)        0(0)      45(38)      0(0)      1(1)      0(0)
+       +popToPushGray_buffercc:buffercc_bc08b398162e498ea...      14(14)        0(0)        0(0)        4(4)      0(0)      0(0)      0(0)
+       +pushToPopGray_buffercc:buffercc_1_bc08b398162e498...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+      +ac_fifo:streamfifocc64_bc08b398162e498eaa40980c1f3...      54(26)        0(0)        0(0)      45(41)      0(0)      3(3)      0(0)
+       +popToPushGray_buffercc:buffercc_bc08b398162e498ea...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+       +pushToPopGray_buffercc:buffercc_1_bc08b398162e498...      14(14)        0(0)        0(0)        1(1)      0(0)      0(0)      0(0)
+      +controller_main:ddr_3_controller_bc08b398162e498ea...  1612(1435)        0(0)    142(103)    829(735)      0(0)      7(0)      0(0)
+       +bram_u2:bram_wrapper_fifo_bc08b398162e498eaa40980...       57(0)        0(0)       13(0)       29(0)      0(0)      1(0)      0(0)
+        +u_efx_fifo_top:efx_fifo_top_bc08b398162e498eaa40...       57(0)        0(0)       13(0)       29(0)      0(0)      1(0)      0(0)
+         +xefx_fifo_ram:efx_fifo_ram_bc08b398162e498eaa40...        1(1)        0(0)        0(0)        1(1)      0(0)      1(1)      0(0)
+         +xefx_fifo_ctl:efx_fifo_ctl_bc08b398162e498eaa40...      56(28)        0(0)      13(13)      28(10)      0(0)      0(0)      0(0)
+          +async_clk.xrd2wr_bin2gray:efx_fifo_bin2gray_bc...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+          +async_clk.xrd2wr_addr_sync:efx_asyncreg_bc08b3...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+          +async_clk.wr2rd_bin2gray:efx_fifo_bin2gray_bc0...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+          +async_clk.wr2rd_addr_sync:efx_asyncreg_bc08b39...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+       +bram_u1:bram_wrapper_fifo_bc08b398162e498eaa40980...       57(0)        0(0)       13(0)       29(0)      0(0)      1(0)      0(0)
+        +u_efx_fifo_top:efx_fifo_top_bc08b398162e498eaa40...       57(0)        0(0)       13(0)       29(0)      0(0)      1(0)      0(0)
+         +xefx_fifo_ram:efx_fifo_ram_bc08b398162e498eaa40...        1(1)        0(0)        0(0)        1(1)      0(0)      1(1)      0(0)
+         +xefx_fifo_ctl:efx_fifo_ctl_bc08b398162e498eaa40...      56(28)        0(0)      13(13)      28(10)      0(0)      0(0)      0(0)
+          +async_clk.xrd2wr_bin2gray:efx_fifo_bin2gray_bc...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+          +async_clk.xrd2wr_addr_sync:efx_asyncreg_bc08b3...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+          +async_clk.wr2rd_bin2gray:efx_fifo_bin2gray_bc0...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+          +async_clk.wr2rd_addr_sync:efx_asyncreg_bc08b39...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+       +bram_u0:bram_wrapper_fifo_bc08b398162e498eaa40980...       63(0)        0(0)       13(0)       30(0)      0(0)      1(0)      0(0)
+        +u_efx_fifo_top:efx_fifo_top_bc08b398162e498eaa40...       63(0)        0(0)       13(0)       30(0)      0(0)      1(0)      0(0)
+         +xefx_fifo_ram:efx_fifo_ram_bc08b398162e498eaa40...        7(7)        0(0)        0(0)        2(2)      0(0)      1(1)      0(0)
+         +xefx_fifo_ctl:efx_fifo_ctl_bc08b398162e498eaa40...      56(28)        0(0)      13(13)      28(10)      0(0)      0(0)      0(0)
+          +async_clk.xrd2wr_bin2gray:efx_fifo_bin2gray_bc...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+          +async_clk.xrd2wr_addr_sync:efx_asyncreg_bc08b3...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+          +async_clk.wr2rd_bin2gray:efx_fifo_bin2gray_bc0...        0(0)        0(0)        0(0)        6(6)      0(0)      0(0)      0(0)
+          +async_clk.wr2rd_addr_sync:efx_asyncreg_bc08b39...      14(14)        0(0)        0(0)        3(3)      0(0)      0(0)      0(0)
+       +map_ram:user_dual_port_ram_bc08b398162e498eaa4098...        0(0)        0(0)        0(0)        6(6)      0(0)      4(4)      0(0)
+     +rst_top0:reset_ctrl_bc08b398162e498eaa40980c1f3d5cf...        2(0)        2(0)        0(0)        1(0)      0(0)      0(0)      0(0)
+      +genblk1[0].genblk1.genblk1.inst_sysclk_rstn:reset_...        1(1)        1(1)        0(0)        1(1)      0(0)      0(0)      0(0)
+      +genblk1[1].genblk1.genblk1.inst_sysclk_rstn:reset_...        1(1)        1(1)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +phase_u0:phase_shift_bc08b398162e498eaa40980c1f3d5cf6       10(10)        0(0)        0(0)      11(11)      0(0)      0(0)      0(0)
+ +u_rgb2dvi:rgb2dvi(ENABLE_OSERDES=0)                              45(0)        0(0)       81(0)       76(0)      0(0)      0(0)      0(0)
+  +enc_0:tmds_channel                                             15(15)        0(0)      27(27)      26(26)      0(0)      0(0)      0(0)
+  +enc_1:tmds_channel                                             15(15)        0(0)      27(27)      25(25)      0(0)      0(0)      0(0)
+  +enc_2:tmds_channel                                             15(15)        0(0)      27(27)      25(25)      0(0)      0(0)      0(0)
+ +u_lcd_driver:lcd_driver                                         26(26)        0(0)      22(22)      90(90)      0(0)      0(0)      0(0)
+ +key_all_ctrl_inist:key_all_ctrl                                 35(35)        0(0)      31(31)      24(24)      0(0)      0(0)      0(0)
+ +u_UART_IF:UART_IF(CLK_FRAC=1488,BAUD=500000,CHECK_BIT="...       52(0)        0(0)       20(0)       27(0)      0(0)      0(0)      0(0)
+  +u_UART_TX:UART_TX(CLK_FRAC=1488,BAUD=500000)                   20(20)        0(0)      10(10)        8(8)      0(0)      0(0)      0(0)
+  +u_UART_RX:UART_RX(CLK_FRAC=1488,BAUD=500000)                   32(32)        0(0)      10(10)      19(19)      0(0)      0(0)      0(0)
+ +u_UART_DATA_WCTL:UART_DATA_WCTL                                104(88)        0(0)      75(55)      66(66)      0(0)      8(0)      0(0)
+  +u_WBUF:SYNC_BBUF_32x256_128x64                                  16(0)        0(0)       20(0)        0(0)      0(0)      8(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_2c19a540c4674c5eb55c8246f...       16(0)        0(0)       20(0)        0(0)      0(0)      8(0)      0(0)
+    +genblk2.efx_resetsync_a_rst:efx_resetsync_2c19a540c4...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +active_high.efx_resetsync_active_high:efx_asyncreg_...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_2c19a540c4674c5eb55c8246f...        0(0)        0(0)        0(0)        0(0)      0(0)      8(8)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_2c19a540c4674c5eb55c8246f...      14(14)        0(0)      20(20)        0(0)      0(0)      0(0)      0(0)
+ +u_IMG_RAM_TOP:IMG_RAM_TOP                                       477(0)        0(0)      169(0)      191(0)      0(0)     31(0)      2(0)
+  +u_IMG_H_RAM:IMG_H_RAM                                        125(125)        0(0)      74(74)    102(102)      0(0)      4(0)      2(2)
+   +u_BRAM_16x2048:BRAM_16x2048                                     0(0)        0(0)        0(0)        0(0)      0(0)      4(0)      0(0)
+    +u_efx_bram:efx_bram_c6ad06d4bb2e4a35bdb0888be3176e40...        0(0)        0(0)        0(0)        0(0)      0(0)      4(0)      0(0)
+     +genblk1.sdpram_inst:efx_simple_dual_port_ram_c6ad06...        0(0)        0(0)        0(0)        0(0)      0(0)      4(0)      0(0)
+      +brams:bram_wrapper_mwm_c6ad06d4bb2e4a35bdb0888be31...        0(0)        0(0)        0(0)        0(0)      0(0)      4(0)      0(0)
+       +scan_row.row[0].column[0].bram:bram_primitive_c6a...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[1].bram:bram_primitive_c6a...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[2].bram:bram_primitive_c6a...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[3].bram:bram_primitive_c6a...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+  +u_IMG_RCTL:IMG_RCTL                                           118(58)        0(0)      66(19)      55(40)      0(0)      3(0)      0(0)
+   +u_FIX_H_BUF:SYNC_DBUF_16x32_16x32                              20(0)        0(0)       18(0)        5(0)      0(0)      1(0)      0(0)
+    +u_efx_fifo_top:efx_fifo_top_70ac10c417bf46339876e239...       20(0)        0(0)       18(0)        5(0)      0(0)      1(0)      0(0)
+     +genblk2.efx_resetsync_a_rst:efx_resetsync_70ac10c41...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+      +active_high.efx_resetsync_active_high:efx_asyncreg...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +xefx_fifo_ram:efx_fifo_ram_70ac10c417bf46339876e239...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+     +xefx_fifo_ctl:efx_fifo_ctl_70ac10c417bf46339876e239...      18(18)        0(0)      18(18)        5(5)      0(0)      0(0)      0(0)
+   +u_RREQ_BUF:SYNC_DBUF_16x32_16x32                               20(0)        0(0)       18(0)        5(0)      0(0)      1(0)      0(0)
+    +u_efx_fifo_top:efx_fifo_top_70ac10c417bf46339876e239...       20(0)        0(0)       18(0)        5(0)      0(0)      1(0)      0(0)
+     +genblk2.efx_resetsync_a_rst:efx_resetsync_70ac10c41...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+      +active_high.efx_resetsync_active_high:efx_asyncreg...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +xefx_fifo_ram:efx_fifo_ram_70ac10c417bf46339876e239...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+     +xefx_fifo_ctl:efx_fifo_ctl_70ac10c417bf46339876e239...      18(18)        0(0)      18(18)        5(5)      0(0)      0(0)      0(0)
+   +u_8ROW_H_BUF:SYNC_DBUF_16x32_16x32                             20(0)        0(0)       11(0)        5(0)      0(0)      1(0)      0(0)
+    +u_efx_fifo_top:efx_fifo_top_70ac10c417bf46339876e239...       20(0)        0(0)       11(0)        5(0)      0(0)      1(0)      0(0)
+     +genblk2.efx_resetsync_a_rst:efx_resetsync_70ac10c41...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+      +active_high.efx_resetsync_active_high:efx_asyncreg...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +xefx_fifo_ram:efx_fifo_ram_70ac10c417bf46339876e239...        0(0)        0(0)        0(0)        2(2)      0(0)      1(1)      0(0)
+     +xefx_fifo_ctl:efx_fifo_ctl_70ac10c417bf46339876e239...      18(18)        0(0)      11(11)        3(3)      0(0)      0(0)      0(0)
+  +u_AXIR_BRAMW:AXIR_BRAMW                                      125(125)        0(0)      29(29)      32(32)      0(0)      0(0)      0(0)
+  +u_BRAM_RW_CTL:BRAM_RW_CTL                                    109(109)        0(0)        0(0)        2(2)      0(0)     24(0)      0(0)
+   +u_BRAM0_0246:BRAM_128x1024_32x4096                              0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+    +u_efx_bram:efx_bram_4454c84705f94a83848d912ff260a3e7...        0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+     +genblk1.sdpram_inst:efx_simple_dual_port_ram_4454c8...        0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+      +brams:bram_wrapper_mwm_4454c84705f94a83848d912ff26...        0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+       +scan_row.row[0].column[0].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[1].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[2].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[3].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[4].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[5].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[6].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[7].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[8].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[9].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[10].bram:bram_primitive_44...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[11].bram:bram_primitive_44...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+   +u_BRAM1_1357:BRAM_128x1024_32x4096                              0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+    +u_efx_bram:efx_bram_4454c84705f94a83848d912ff260a3e7...        0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+     +genblk1.sdpram_inst:efx_simple_dual_port_ram_4454c8...        0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+      +brams:bram_wrapper_mwm_4454c84705f94a83848d912ff26...        0(0)        0(0)        0(0)        0(0)      0(0)     12(0)      0(0)
+       +scan_row.row[0].column[0].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[1].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[2].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[3].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[4].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[5].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[6].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[7].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[8].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[9].bram:bram_primitive_445...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[10].bram:bram_primitive_44...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+       +scan_row.row[0].column[11].bram:bram_primitive_44...        0(0)        0(0)        0(0)        0(0)      0(0)      1(1)      0(0)
+ +u_HDMI_IMAGE:HDMI_IMAGE                                       306(214)        0(0)      74(43)    209(165)      0(0)      3(0)      1(1)
+  +u_R:nearest                                                      8(8)        0(0)        0(0)        8(8)      0(0)      0(0)      0(0)
+  +u_G:nearest                                                      8(8)        0(0)        0(0)        8(8)      0(0)      0(0)      0(0)
+  +u_B:nearest                                                      8(8)        0(0)        0(0)        8(8)      0(0)      0(0)      0(0)
+  +u_OBUF:ASYNC_BBUF_16x1024_16x1024                               68(0)        0(0)       31(0)       20(0)      0(0)      3(0)      0(0)
+   +u_efx_fifo_top:efx_fifo_top_c0f2f336ff974fc2938197d36...       68(0)        0(0)       31(0)       20(0)      0(0)      3(0)      0(0)
+    +genblk2.genblk1.efx_resetsync_wr_rst:efx_resetsync_c...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +active_high.efx_resetsync_active_high:efx_asyncreg_...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+    +genblk2.genblk1.efx_resetsync_rd_rst:efx_resetsync_c...        2(0)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +active_high.efx_resetsync_active_high:efx_asyncreg_...        2(2)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+    +xefx_fifo_ram:efx_fifo_ram_c0f2f336ff974fc2938197d36...        0(0)        0(0)        0(0)        0(0)      0(0)      3(3)      0(0)
+    +xefx_fifo_ctl:efx_fifo_ctl_c0f2f336ff974fc2938197d36...      64(42)        0(0)      31(31)       20(0)      0(0)      0(0)      0(0)
+     +async_clk.xrd2wr_bin2gray:efx_fifo_bin2gray_c0f2f33...        0(0)        0(0)        0(0)      10(10)      0(0)      0(0)      0(0)
+     +async_clk.xrd2wr_addr_sync:efx_asyncreg_c0f2f336ff9...      22(22)        0(0)        0(0)        0(0)      0(0)      0(0)      0(0)
+     +async_clk.xrd2wr_gray2bin:efx_fifo_gray2bin_c0f2f33...        0(0)        0(0)        0(0)       10(1)      0(0)      0(0)      0(0)
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_c0f2f...        0(0)        0(0)        0(0)        9(1)      0(0)      0(0)      0(0)
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_c0f2...        0(0)        0(0)        0(0)        8(1)      0(0)      0(0)      0(0)
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_c0f...        0(0)        0(0)        0(0)        7(1)      0(0)      0(0)      0(0)
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_c0...        0(0)        0(0)        0(0)        6(1)      0(0)      0(0)      0(0)
+          +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_c...        0(0)        0(0)        0(0)        5(1)      0(0)      0(0)      0(0)
+           +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_...        0(0)        0(0)        0(0)        4(1)      0(0)      0(0)      0(0)
+            +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin...        0(0)        0(0)        0(0)        3(1)      0(0)      0(0)      0(0)
+             +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bi...        0(0)        0(0)        0(0)        2(1)      0(0)      0(0)      0(0)
+              +genblk1.genblk1.u_gray2bin:efx_fifo_gray2b...        0(0)        0(0)        0(0)        1(1)      0(0)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+        Clock     Flip-Flops     Shift-Regs   Memory Ports    Multipliers
+        -----     ----------     ----------   ------------    -----------
+    clk_pixel             96              0              3              0
+ clk_pixel_2x           1609            350            101              0
+      tac_clk            302              0              8              0
+    tdqss_clk            109              0              4              0
+     core_clk            814              0             15              0
+      twd_clk            685              0              9              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+1. u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram (D:\Efinity\project\nearest\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\DdrCtrl\DdrCtrl.v:0):
+	EFX_RAM10: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$b12
+	EFX_RAM10: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$12
+	EFX_RAM10: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$2
+	EFX_RAM10: u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$c1
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Titanium
+device : Ti60F225
+project : Ti60_Demo
+project-xml : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/Ti60_Demo.xml
+root : example_top
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/W0_FIFO
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/R0_FIFO
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/dsi_tx
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/csi_rx
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/W0_FIFO_8
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/W0_FIFO_64
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/FIFO_W48R24
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/R0_FIFO_8
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/R0_FIFO_16
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/W0_FIFO_32
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/W0_FIFO_16
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_BBUF_32x256_128x64
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_DBUF_16x32_16x32
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/ASYNC_BBUF_16x1024_16x1024
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/FIFO_DATA_RX
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/RAM_GET_TEMP
+I,include : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BARM_GET_hang_Handle
+I,include : ip/BARM_GET_hang_Handle
+output-dir : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/outflow
+work-dir : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/work_syn
+write-efx-verilog : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/outflow/Ti60_Demo.map.v
+binary-db : D:/Efinity/project/nearest/02-1_Ti60_OV5640_LCD-HDMI_1080P60/outflow/Ti60_Demo.vdb
+insert-ios : 0
+insert-gclk : 0
+max-carry-cascade : 320
+max-dsp-cascade : 16
+max_mult : -1
+max_ram : -1
+seq_opt : 0
+retiming : 0
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+num_srl : -1
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	56
+OUTPUT PORTS    : 	154
+
+EFX_ADD         : 	1052
+EFX_LUT4        : 	3449
+   1-2  Inputs  : 	872
+   3    Inputs  : 	1176
+   4    Inputs  : 	1401
+EFX_DSP48       : 	3
+EFX_FF          : 	3615
+EFX_SRL8        : 	350
+EFX_RAM10       : 	72
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 20s
+Elapsed synthesis time : 22s

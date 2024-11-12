@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "ASYNC_BBUF_16x1024_16x1024",
+        "--base_path",
+        "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "10",
+        "DATA_WIDTH": "24",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "1",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0",
+        "RAM_STYLE": "\"block_ram\"",
+        "OVERFLOW_PROTECT": "0",
+        "UNDERFLOW_PROTECT": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\ASYNC_BBUF_16x1024_16x1024_tmpl.vhd",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\ASYNC_BBUF_16x1024_16x1024_tmpl.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\ASYNC_BBUF_16x1024_16x1024_define.vh",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\ASYNC_BBUF_16x1024_16x1024.v"
+        ],
+        "external_example_example": [
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\T20F256_devkit\\fifo_demo_top.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\T20F256_devkit\\ASYNC_BBUF_16x1024_16x1024.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\T20F256_devkit\\ASYNC_BBUF_16x1024_16x1024_define.vh",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\T20F256_devkit\\fifo_demo.peri.xml",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Ti60F225_devkit\\fifo_demo_top.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Ti60F225_devkit\\ASYNC_BBUF_16x1024_16x1024.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Ti60F225_devkit\\ASYNC_BBUF_16x1024_16x1024_define.vh",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Testbench\\fifo_tb.sv",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Testbench\\xrun.sh",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Testbench\\msim.sh",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Testbench\\flist",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Testbench\\modelsim.do",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Testbench\\ASYNC_BBUF_16x1024_16x1024.v",
+            "E:\\Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\ASYNC_BBUF_16x1024_16x1024\\Testbench\\ASYNC_BBUF_16x1024_16x1024_define.vh"
+        ]
+    },
+    "sw_version": "2024.1.163",
+    "generated_date": "2024-10-23T11:10:54.506202"
+}

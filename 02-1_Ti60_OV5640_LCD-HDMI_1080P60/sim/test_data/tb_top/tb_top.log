@@ -1,0 +1,12 @@
+# vsim -gui 
+# Start time: 19:59:19 on Nov 11,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# This version of the compiler is incompatible with library file.
+# ** Error: (vopt-13130) Failed to find design unit work.TB_TOP.
+# 
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./do/tb_top.do PAUSED at line 4

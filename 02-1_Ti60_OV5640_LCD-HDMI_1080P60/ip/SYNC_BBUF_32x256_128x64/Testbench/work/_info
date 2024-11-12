@@ -1,0 +1,227 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_BBUF_32x256_128x64/Testbench
+vefx_asyncreg_14e867dcaeef49fc9073dd1a927d3283
+Z1 !s110 1729500305
+!i10b 1
+!s100 =Vlk`ND1lRnhzlKYi0AK`1
+I]5UJ>YP3_cTNYnkj6f[UR0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1729480689
+Z4 8SYNC_BBUF_32x256_128x64.v
+Z5 FSYNC_BBUF_32x256_128x64.v
+L0 1401
+Z6 OL;L;10.7;67
+r1
+!s85 0
+31
+Z7 !s108 1729500305.000000
+!s107 SYNC_BBUF_32x256_128x64.v|
+Z8 !s90 -reportprogress|300|+incr|-work|work|SYNC_BBUF_32x256_128x64.v|
+!i113 0
+Z9 o+incr -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vefx_fifo_bin2gray_14e867dcaeef49fc9073dd1a927d3283
+R1
+!i10b 1
+!s100 ZC[>ZABlCT6FH5:N0Y3]o3
+IhzCz6_CJ=oXnFoRc@m;D^0
+R2
+R0
+R3
+R4
+R5
+L0 211
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 SYNC_BBUF_32x256_128x64.v|
+R8
+!i113 0
+R9
+R10
+vefx_fifo_ctl_14e867dcaeef49fc9073dd1a927d3283
+R1
+!i10b 1
+!s100 D>U?EJXabN6Ho8`ai1Q>Q2
+I9ebUR><l>z3GW0Gb5NS^n0
+R2
+R0
+R3
+R4
+R5
+L0 951
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vefx_fifo_gray2bin_14e867dcaeef49fc9073dd1a927d3283
+R1
+!i10b 1
+!s100 jTB?1^J]2>>PVQe0jH4B42
+I5RR=RoQ]]EU:A9^T2OA>>3
+R2
+R0
+R3
+R4
+R5
+L0 123
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vefx_fifo_ram_14e867dcaeef49fc9073dd1a927d3283
+R1
+!i10b 1
+!s100 N=GAZgLcH1:?8m70XYP`U2
+I985Y8I9XVKzDn`m73[oMd1
+R2
+R0
+R3
+R4
+R5
+L0 620
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vefx_fifo_top_14e867dcaeef49fc9073dd1a927d3283
+R1
+!i10b 1
+!s100 @TzARPbFJE3ZAbo2^gM160
+I;m4Sf?0[3>HGgH2O85Ab:0
+R2
+R0
+R3
+R4
+R5
+L0 300
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vefx_resetsync_14e867dcaeef49fc9073dd1a927d3283
+R1
+!i10b 1
+!s100 ]78_^kaEQC0[C2kIImJ]Y0
+I3TF7]BU;=BU=Q`6Y:0Y970
+R2
+R0
+R3
+R4
+R5
+L0 1356
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vfifo_tb
+Z12 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+DXx4 work 15 fifo_tb_sv_unit 0 22 I2QMCN42LT8SGU50VdJjQ0
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 o:MD?JbaNG:Ma]SOTnmK01
+IGHo6mEW;1edKL2;D20Tnn0
+!s105 fifo_tb_sv_unit
+S1
+R0
+R3
+Z13 8fifo_tb.sv
+Z14 Ffifo_tb.sv
+L0 5
+R6
+Z15 !s108 1729499986.000000
+Z16 !s107 SYNC_BBUF_32x256_128x64_define.vh|fifo_tb.sv|
+Z17 !s90 -reportprogress|300|-sv|fifo_tb.sv|
+!i113 0
+Z18 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+Xfifo_tb_sv_unit
+R12
+VI2QMCN42LT8SGU50VdJjQ0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :;OlLMmfVae]cWZf9I>PF2
+II2QMCN42LT8SGU50VdJjQ0
+!i103 1
+S1
+R0
+R3
+R13
+R14
+FSYNC_BBUF_32x256_128x64_define.vh
+L0 46
+R6
+R15
+R16
+R17
+!i113 0
+R18
+R10
+vSYNC_BBUF_32x256_128x64
+R1
+!i10b 1
+!s100 98ZkeHCjYbdUA;<BE`g?^0
+ISUHN7kTa?kz:aNFNEZoI92
+R2
+R0
+R3
+R4
+R5
+L0 49
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+n@s@y@n@c_@b@b@u@f_32x256_128x64

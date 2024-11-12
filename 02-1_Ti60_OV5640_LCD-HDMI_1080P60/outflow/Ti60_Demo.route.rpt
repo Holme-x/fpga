@@ -1,0 +1,36 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Date: Tue Nov 12 16:57:25 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: Ti60_Demo
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++---------------+----------+----------+
+|   Clock Net   | GBUFCE_X | GBUFCE_Y |
++---------------+----------+----------+
+|    clk_27m    |   218    |   165    |
+|   clk_pixel   |    1     |   159    |
+| clk_pixel_10x |    1     |   164    |
+| clk_pixel_2x  |    1     |   163    |
+|    clk_sys    |    1     |   162    |
+|   cmos_pclk   |   111    |   322    |
+|   core_clk    |   107    |    1     |
+|    tac_clk    |   111    |    1     |
+|   tdqss_clk   |   110    |    1     |
+|    twd_clk    |   112    |    1     |
++---------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+
+Elapsed time for routing: 0 hours 1 minutes 17 seconds
+Elapsed time for entire flow: 0 hours 3 minutes 2 seconds

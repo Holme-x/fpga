@@ -1,0 +1,188 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Date: Tue Nov 12 16:56:01 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: Ti60_Demo
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 51 / 1703 (2.99%)
+Outputs: 246 / 2267 (10.85%)
+Global Clocks (GBUF): 10 / 32 (31.25%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 6916 / 60800 (11.38%)
+	XLRs needed for Logic: 2230 / 60800 (3.67%)
+	XLRs needed for Logic + FF: 1221 / 60800 (2.01%)
+	XLRs needed for Adder: 721 / 60800 (1.19%)
+	XLRs needed for Adder + FF: 331 / 60800 (0.54%)
+	XLRs needed for FF: 2063 / 60800 (3.39%)
+	XLRs needed for SRL8: 350 / 14720 (2.38%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 72 / 256 (28.12%)
+DSP Blocks: 3 / 160 (1.88%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 3
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 3
+
+---------- DSP Packer Summary (end) ----------
+
+
+---------- DSP48 Block Information (begin) ----------
+
++-----------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+|               NAME                |  MODE  | SIGNED | SHIFTER | M_SEL | N_SEL | W_SEL | CASCOUT_SEL |
++-----------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+| u_IMG_RAM_TOP/u_IMG_H_RAM/mult_64 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+| u_IMG_RAM_TOP/u_IMG_H_RAM/mult_10 | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
+|       u_HDMI_IMAGE/mult_114       | NORMAL | false  |  false  |   P   |   C   |   P   |      P      |
++-----------------------------------+--------+--------+---------+-------+-------+-------+-------------+
+
+----------- DSP48 Block Information (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++------------------------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                                                   NAME                                                                   | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++------------------------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                     u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                     u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                     u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$1                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                     u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |    true    |
+|                     u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$1                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$12                     | SDP  |     16     |     16      | READ_UNKNOWN |    true    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$b12                    | SDP  |     16     |     16      | READ_UNKNOWN |    true    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$c12                    | SDP  |     16     |     16      | READ_UNKNOWN |    true    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$d12                    | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$e12                    | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$f12                    | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$g1                     | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|              u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$2              | SDP  |     16     |     16      | READ_UNKNOWN |    true    |
+|             u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$b12             | SDP  |     16     |     16      | READ_UNKNOWN |    true    |
+|             u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$12              | SDP  |     16     |     16      | READ_UNKNOWN |    true    |
+|             u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$c12             | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|             u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$d12             | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|             u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$e12             | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|             u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$f1              | SDP  |     20     |     20      | READ_UNKNOWN |    true    |
+|                       u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/ram                       | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|                     u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$2                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+| u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u2/u_efx_fifo_top/xefx_fifo_ram/ram | SDP  |     1      |      1      | READ_UNKNOWN |    true    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$12                     | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|                    u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$b1                     | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$b12            | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$12             | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|             u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$2             | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+| u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u1/u_efx_fifo_top/xefx_fifo_ram/ram | SDP  |     1      |      1      | READ_UNKNOWN |    true    |
+| u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/bram_u0/u_efx_fifo_top/xefx_fifo_ram/ram | SDP  |     1      |      1      | READ_UNKNOWN |    true    |
+|            u_DDR_CTL/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$c1             | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                                     u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|                                      u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$c2                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|                                     u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$2b1                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|                                      u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$c1                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|                                     u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$121                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|                                     u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$b21                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|                                     u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$212                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|                                     u_UART_DATA_WCTL/u_WBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$1b2                                      | SDP  |     16     |      4      |  READ_FIRST  |    true    |
+|       u_IMG_RAM_TOP/u_IMG_H_RAM/u_BRAM_16x2048/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.ram10k        | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_IMG_H_RAM/u_BRAM_16x2048/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.ram10k        | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_IMG_H_RAM/u_BRAM_16x2048/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.ram10k        | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_IMG_H_RAM/u_BRAM_16x2048/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.ram10k        | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+|                                  u_IMG_RAM_TOP/u_IMG_RCTL/u_FIX_H_BUF/u_efx_fifo_top/xefx_fifo_ram/ram                                   | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                                   u_IMG_RAM_TOP/u_IMG_RCTL/u_RREQ_BUF/u_efx_fifo_top/xefx_fifo_ram/ram                                   | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|                                  u_IMG_RAM_TOP/u_IMG_RCTL/u_8ROW_H_BUF/u_efx_fifo_top/xefx_fifo_ram/ram                                  | SDP  |     16     |     16      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[4].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[5].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[6].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[7].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[8].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[9].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[10].bram/genblk1.ram10k       | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM0_0246/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[11].bram/genblk1.ram10k       | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[4].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[5].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[3].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[2].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[6].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[7].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[8].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[9].bram/genblk1.ram10k        | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[10].bram/genblk1.ram10k       | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|       u_IMG_RAM_TOP/u_BRAM_RW_CTL/u_BRAM1_1357/u_efx_bram/genblk1.sdpram_inst/brams/scan_row.row[0].column[11].bram/genblk1.ram10k       | SDP  |     2      |      8      |  READ_FIRST  |   false    |
+|                                        u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                                         | SDP  |     8      |      8      | READ_UNKNOWN |    true    |
+|                                        u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                                        | SDP  |     8      |      8      | READ_UNKNOWN |    true    |
+|                                        u_HDMI_IMAGE/u_OBUF/u_efx_fifo_top/xefx_fifo_ram/ram__D$b1                                        | SDP  |     8      |      8      | READ_UNKNOWN |    true    |
++------------------------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|      cmos_data[0]      |    Input     |
+|      cmos_data[1]      |    Input     |
+|      cmos_ctl3_o       |    Output    |
+|      cmos_ctl3_oe      |    Output    |
+|      cmos_ctl3_i       |    Input     |
+|       cmos_sclk        |    Output    |
+|      cmos_data[4]      |    Input     |
+|      cmos_data[6]      |    Input     |
+|      cmos_data[2]      |    Input     |
+|      cmos_ctl2_o       |    Output    |
+|      cmos_ctl2_oe      |    Output    |
+|      cmos_ctl2_i       |    Input     |
+|       cmos_vsync       |    Input     |
+|     i_dqs_n_lo[1]      |    Input     |
+|     i_dqs_n_hi[1]      |    Input     |
+|     i_dqs_n_lo[0]      |    Input     |
+|     i_dqs_n_hi[0]      |    Input     |
+|        clk_25m         |    Input     |
+|     cmos_sdat_OUT      |    Output    |
+|      cmos_sdat_OE      |    Output    |
+|      cmos_ctl1_o       |    Output    |
+|      cmos_data[7]      |    Input     |
+|      cmos_ctl1_oe      |    Output    |
+|      cmos_sdat_IN      |    Input     |
+|      cmos_ctl1_i       |    Input     |
+|      cmos_data[5]      |    Input     |
+|      cmos_data[3]      |    Input     |
+|       cmos_href        |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|       clk_27m        |    Input     |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 1 minutes 18 seconds

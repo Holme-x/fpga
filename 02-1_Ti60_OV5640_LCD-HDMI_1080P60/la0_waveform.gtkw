@@ -1,0 +1,95 @@
+[dumpfile] "E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\la0_waveform.vcd"
+[dumpfile_mtime] "Sat Oct 26 02:08:43 2024"
+[dumpfile_size] 334203
+[savefile] "E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 512 1536 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\u_HDMI_IMG_GEN/i_8row_empty
+top.\u_HDMI_IMG_GEN/i_8row_h[8:0]
+top.\u_HDMI_IMG_GEN/i_8row_id[2:0]
+top.\u_HDMI_IMG_GEN/i_bram_rvld
+top.\u_HDMI_IMG_GEN/i_ch0_rdata[31:0]
+top.\u_HDMI_IMG_GEN/i_ch1_rdata[31:0]
+top.\u_HDMI_IMG_GEN/i_fix_h[14:0]
+top.\u_HDMI_IMG_GEN/i_fix_h_empty
+top.\u_HDMI_IMG_GEN/i_fix_h_vld
+top.\u_HDMI_IMG_GEN/i_pixel_re
+top.\u_HDMI_IMG_GEN/i_rate_coe[10:0]
+top.\u_HDMI_IMG_GEN/i_roi_bw[15:0]
+top.\u_HDMI_IMG_GEN/i_roi_ew[15:0]
+top.\u_HDMI_IMG_GEN/o_8row_re
+top.\u_HDMI_IMG_GEN/o_bram_re
+top.\u_HDMI_IMG_GEN/o_ch0_raddr[11:0]
+top.\u_HDMI_IMG_GEN/o_ch1_raddr[11:0]
+top.\u_HDMI_IMG_GEN/o_fix_h_re
+top.\u_HDMI_IMG_GEN/o_pixel_rgb[23:0]
+top.\u_HDMI_IMG_GEN/r_4pixel_vld
+top.\u_HDMI_IMG_GEN/r_8row_id_vld
+top.\u_HDMI_IMG_GEN/r_8row_rreq
+top.\u_HDMI_IMG_GEN/r_bram_re[2:0]
+top.\u_HDMI_IMG_GEN/r_ch0_id[1:0]
+top.\u_HDMI_IMG_GEN/r_ch1_id[1:0]
+top.\u_HDMI_IMG_GEN/r_debug_data[7:0]
+top.\u_HDMI_IMG_GEN/r_dn_b0[7:0]
+top.\u_HDMI_IMG_GEN/r_dn_b1[7:0]
+top.\u_HDMI_IMG_GEN/r_dn_g0[7:0]
+top.\u_HDMI_IMG_GEN/r_dn_g1[7:0]
+top.\u_HDMI_IMG_GEN/r_dn_id[2:0]
+top.\u_HDMI_IMG_GEN/r_dn_r0[7:0]
+top.\u_HDMI_IMG_GEN/r_dn_r1[7:0]
+top.\u_HDMI_IMG_GEN/r_dn_vld
+top.\u_HDMI_IMG_GEN/r_fix_h_vld
+top.\u_HDMI_IMG_GEN/r_frac_h[4:0]
+top.\u_HDMI_IMG_GEN/r_frac_w[4:0]
+top.\u_HDMI_IMG_GEN/r_frac_w_d0[4:0]
+top.\u_HDMI_IMG_GEN/r_frac_w_d1[4:0]
+top.\u_HDMI_IMG_GEN/r_frac_w_d2[4:0]
+top.\u_HDMI_IMG_GEN/r_hdmi_w[10:0]
+top.\u_HDMI_IMG_GEN/r_img_w[10:0]
+top.\u_HDMI_IMG_GEN/r_int_h[8:0]
+top.\u_HDMI_IMG_GEN/r_int_w[9:0]
+top.\u_HDMI_IMG_GEN/r_int_w1[9:0]
+top.\u_HDMI_IMG_GEN/r_last_state[3:0]
+top.\u_HDMI_IMG_GEN/r_module_busy
+top.\u_HDMI_IMG_GEN/r_o_h[10:0]
+top.\u_HDMI_IMG_GEN/r_o_w[10:0]
+top.\u_HDMI_IMG_GEN/r_org_w[15:0]
+top.\u_HDMI_IMG_GEN/r_pixel2_en
+top.\u_HDMI_IMG_GEN/r_pixel2_flag[2:0]
+top.\u_HDMI_IMG_GEN/r_rgb_wdata[23:0]
+top.\u_HDMI_IMG_GEN/r_rgb_wdone
+top.\u_HDMI_IMG_GEN/r_rgb_we
+top.\u_HDMI_IMG_GEN/r_state[3:0]
+top.\u_HDMI_IMG_GEN/r_sum[31:0]
+top.\u_HDMI_IMG_GEN/r_up_b0[7:0]
+top.\u_HDMI_IMG_GEN/r_up_b1[7:0]
+top.\u_HDMI_IMG_GEN/r_up_g0[7:0]
+top.\u_HDMI_IMG_GEN/r_up_g1[7:0]
+top.\u_HDMI_IMG_GEN/r_up_id[2:0]
+top.\u_HDMI_IMG_GEN/r_up_r0[7:0]
+top.\u_HDMI_IMG_GEN/r_up_r1[7:0]
+top.\u_HDMI_IMG_GEN/r_wait_cnt[3:0]
+top.\u_HDMI_IMG_GEN/r_wait_done
+top.\u_HDMI_IMG_GEN/r_wr0_en
+top.\u_HDMI_IMG_GEN/r_wr0_size[10:0]
+top.\u_HDMI_IMG_GEN/s_0_wdone
+top.\u_HDMI_IMG_GEN/s_8row_check
+top.\u_HDMI_IMG_GEN/s_8row_check_done
+top.\u_HDMI_IMG_GEN/s_b[7:0]
+top.\u_HDMI_IMG_GEN/s_bram_raddr[9:0]
+top.\u_HDMI_IMG_GEN/s_g[7:0]
+top.\u_HDMI_IMG_GEN/s_hdmi_en
+top.\u_HDMI_IMG_GEN/s_r[7:0]
+top.\u_HDMI_IMG_GEN/s_rgb_cnt[9:0]
+top.\u_HDMI_IMG_GEN/s_rgb_pfull
+top.\u_HDMI_IMG_GEN/s_rgb_rlast
+top.\u_HDMI_IMG_GEN/s_rgb_vld
+top.\u_HDMI_IMG_GEN/s_rgb_wr
+top.\u_HDMI_IMG_GEN/s_rgb_wr0
+top.\u_HDMI_IMG_GEN/s_wr0_en
+top.r_fix_rate[10:0]
