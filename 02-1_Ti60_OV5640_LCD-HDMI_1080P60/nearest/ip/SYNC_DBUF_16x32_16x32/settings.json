@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "SYNC_DBUF_16x32_16x32",
+        "--base_path",
+        "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "1",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "5",
+        "DATA_WIDTH": "16",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "1",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0",
+        "RAM_STYLE": "\"block_ram\"",
+        "OVERFLOW_PROTECT": "0",
+        "UNDERFLOW_PROTECT": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\SYNC_DBUF_16x32_16x32_tmpl.vhd",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\SYNC_DBUF_16x32_16x32_define.vh",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\SYNC_DBUF_16x32_16x32.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\SYNC_DBUF_16x32_16x32_tmpl.v"
+        ],
+        "external_example_example": [
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\T20F256_devkit\\fifo_demo_top.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\T20F256_devkit\\SYNC_DBUF_16x32_16x32.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\T20F256_devkit\\SYNC_DBUF_16x32_16x32_define.vh",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\T20F256_devkit\\fifo_demo.peri.xml",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Ti60F225_devkit\\fifo_demo_top.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Ti60F225_devkit\\SYNC_DBUF_16x32_16x32.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Ti60F225_devkit\\SYNC_DBUF_16x32_16x32_define.vh",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Testbench\\fifo_tb.sv",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Testbench\\xrun.sh",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Testbench\\msim.sh",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Testbench\\flist",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Testbench\\modelsim.do",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Testbench\\SYNC_DBUF_16x32_16x32.v",
+            "L:\\32-Gitea\\OD\\02-1_Ti60_OV5640_LCD-HDMI_1080P60\\ip\\SYNC_DBUF_16x32_16x32\\Testbench\\SYNC_DBUF_16x32_16x32_define.vh"
+        ]
+    },
+    "sw_version": "2024.1.163",
+    "generated_date": "2024-10-21T11:54:45.408343"
+}

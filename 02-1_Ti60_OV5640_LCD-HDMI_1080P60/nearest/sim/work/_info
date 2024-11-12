@@ -1,0 +1,2697 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench
+T_opt1
+!s110 1729501664
+V?i2:L[oUHl^W688844ICd1
+Z1 04 6 4 work TB_TOP fast 0
+=8-00e04c390984-671619df-3c0-2f94
+o-quiet -auto_acc_if_foreign -work work -L work -L verilog -L unisims_ver -L unimacro_ver -L unifast_ver -L simprims_ver -L secureip +acc
+Z2 tCvgOpt 0
+n@_opt1
+Z3 OL;O;10.7;67
+R0
+T_opt2
+!s110 1729598634
+VMjJDIHK^487mI85LId^_=3
+R1
+=19-4cedfb69121a-671794a9-1f8-5d48
+o-quiet -auto_acc_if_foreign -work work -L work -L verilog -L unisims_ver -L unimacro_ver -L unifast_ver -L simprims_ver -L secureip -suppress 3009 +acc
+R2
+n@_opt2
+R3
+R0
+vASYNC_BBUF_16x1024_16x1024
+Z4 !s110 1729556971
+!i10b 1
+!s100 3?=abYc;Bk@>h_1OGh8XP3
+IhLbMdz;9=g9YO4C68O2=]2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/sim
+Z7 w1729511739
+Z8 8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/ASYNC_BBUF_16x1024_16x1024/Testbench/ASYNC_BBUF_16x1024_16x1024.v
+Z9 FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/ASYNC_BBUF_16x1024_16x1024/Testbench/ASYNC_BBUF_16x1024_16x1024.v
+Z10 L0 49
+Z11 OL;L;10.7;67
+r1
+!s85 0
+31
+Z12 !s108 1729556971.000000
+Z13 !s107 L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/ASYNC_BBUF_16x1024_16x1024/Testbench/ASYNC_BBUF_16x1024_16x1024.v|
+Z14 !s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/ASYNC_BBUF_16x1024_16x1024/Testbench/ASYNC_BBUF_16x1024_16x1024.v|
+!i113 0
+Z15 o+incr -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@s@y@n@c_@b@b@u@f_16x1024_16x1024
+vAXIR_BRAMW
+Z16 !s110 1729598631
+!i10b 1
+!s100 L8hM3=f6;VmJ8;:F[f0ze3
+IelQW]mkTB9mdQmogoUoad3
+R5
+R6
+w1729594961
+8../src/USER_LOGIC/IMG_RAM_TOP/AXIR_BRAMW.v
+F../src/USER_LOGIC/IMG_RAM_TOP/AXIR_BRAMW.v
+L0 2
+R11
+r1
+!s85 0
+31
+Z17 !s108 1729598631.000000
+Z18 !s107 ../src/USER_LOGIC/IMG_RAM_TOP/IMG_RCTL.v|../src/USER_LOGIC/IMG_RAM_TOP/IMG_RAM_TOP.v|../src/USER_LOGIC/IMG_RAM_TOP/IMG_H_RAM.v|../src/USER_LOGIC/IMG_RAM_TOP/BRAM_RW_CTL.v|../src/USER_LOGIC/IMG_RAM_TOP/AXIR_BRAMW.v|
+Z19 !s90 -reportprogress|300|+define+_SIM|-cover|bcest|+incr|-work|work|../src/USER_LOGIC/IMG_RAM_TOP/AXIR_BRAMW.v|../src/USER_LOGIC/IMG_RAM_TOP/BRAM_RW_CTL.v|../src/USER_LOGIC/IMG_RAM_TOP/IMG_H_RAM.v|../src/USER_LOGIC/IMG_RAM_TOP/IMG_RAM_TOP.v|../src/USER_LOGIC/IMG_RAM_TOP/IMG_RCTL.v|
+!i113 0
+Z20 !s102 -cover bcest
+Z21 o-cover bcest +incr -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z22 !s92 +define+_SIM -cover bcest +incr -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@x@i@r_@b@r@a@m@w
+vBRAM_128x1024_32x4096
+Z23 !s110 1729556972
+!i10b 1
+!s100 om<_h3;iTKNX:maJE^@5L1
+IJ8Mo<SceJc`NBim5<D1i[2
+R5
+R6
+Z24 w1729481054
+Z25 8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/BRAM_128x1024_32x4096.v
+Z26 FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/BRAM_128x1024_32x4096.v
+R10
+R11
+r1
+!s85 0
+31
+Z27 !s108 1729556972.000000
+Z28 !s107 L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\Testbench\bram_decompose.vh|L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\Testbench\bram_ini.vh|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/tdp_test_pattern.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sprom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/dp_test_pattern_rom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/BRAM_128x1024_32x4096.v|
+Z29 !s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/BRAM_128x1024_32x4096.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/dp_test_pattern_rom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sprom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/tdp_test_pattern.v|
+!i113 0
+R15
+R2
+n@b@r@a@m_128x1024_32x4096
+vBRAM_16x2048
+R4
+!i10b 1
+!s100 kF1eDzVMdM8aTA>mA2z8:0
+I9a_YN;Sl5SBJdQNZ1f;2@3
+R5
+R6
+Z30 w1729480981
+Z31 8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/BRAM_16x2048.v
+Z32 FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/BRAM_16x2048.v
+R10
+R11
+r1
+!s85 0
+31
+R12
+Z33 !s107 L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\Testbench\bram_decompose.vh|L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\Testbench\bram_ini.vh|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/tdp_test_pattern.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_sprom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/monitor_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/monitor_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/monitor_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_ram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_ram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_dpram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_dpram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/dp_test_pattern_rom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/BRAM_16x2048.v|
+Z34 !s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/BRAM_16x2048.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/dp_test_pattern_rom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_dpram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_dpram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_ram10.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/efx_ram_5k.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/monitor_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/monitor_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/monitor_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_sdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_sp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_sprom.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/signal_gen_tdp.v|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_16x2048/Testbench/tdp_test_pattern.v|
+!i113 0
+R15
+R2
+n@b@r@a@m_16x2048
+vbram_primitive_4454c84705f94a83848d912ff260a3e7
+R23
+!i10b 1
+!s100 h`JRN9CFMFg[1hn0ab6l[3
+IgXh_XLEL`2K9L16L`i>:=0
+R5
+R6
+R24
+R25
+R26
+FL:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\Testbench\bram_ini.vh
+Z35 L0 655
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vbram_primitive_c6ad06d4bb2e4a35bdb0888be3176e40
+R4
+!i10b 1
+!s100 @e91^:f34e74a4i_lMNzK2
+I<T;d=8=bnd;en]G;eK0602
+R5
+R6
+R30
+R31
+R32
+FL:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\Testbench\bram_ini.vh
+R35
+R11
+r1
+!s85 0
+31
+R12
+R33
+R34
+!i113 0
+R15
+R2
+vBRAM_RW_CTL
+R16
+!i10b 1
+!s100 2IE3>h@U5J[Nlo@?ooO222
+IVCYUAzjY7CkiU9]A^[bia2
+R5
+R6
+w1729480291
+8../src/USER_LOGIC/IMG_RAM_TOP/BRAM_RW_CTL.v
+F../src/USER_LOGIC/IMG_RAM_TOP/BRAM_RW_CTL.v
+L0 2
+R11
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R2
+n@b@r@a@m_@r@w_@c@t@l
+v+ULu2yQnpxrvQGThyeqNHYx4f8jRwFISOYiBNzKZxFx5cLj2426Z13116AcN03R8t+FcyyCru+Kv/iSQ09r2rA==
+Z36 !s110 1729501754
+!i10b 0
+!s100 cBj3b3khHMSTi:I:ckfK=3
+I>1l4XXPGaL3^mTa4a`Jn;0
+R5
+!i119 1
+!i8a 2043495952
+R6
+Z37 w1729501754
+Z38 8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/modelsim/DdrCtrl.v
+Z39 FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/modelsim/DdrCtrl.v
+L0 2541
+R11
+r1
+!s85 0
+31
+Z40 !s108 1729501754.000000
+Z41 !s107 ddr3_controller.vh|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/modelsim/DdrCtrl.v|
+Z42 !s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/modelsim/DdrCtrl.v|
+!i113 0
+R15
+R2
+n7cb70e6
+vbram_wrapper_mwm_4454c84705f94a83848d912ff260a3e7
+R23
+!i10b 1
+!s100 o6F;N[=QUh=IkgaX9XjM72
+IicNkAi^gM^Q?m5EMfU7>]1
+R5
+R6
+R24
+R25
+R26
+FL:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_128x1024_32x4096\Testbench\bram_decompose.vh
+Z43 L0 931
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vbram_wrapper_mwm_c6ad06d4bb2e4a35bdb0888be3176e40
+R4
+!i10b 1
+!s100 6N=3@SL9c<3nPXeNa_;UU0
+I>JI^dMAeISn7?k_O>GEH13
+R5
+R6
+R30
+R31
+R32
+FL:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\ip\BRAM_16x2048\Testbench\bram_decompose.vh
+R43
+R11
+r1
+!s85 0
+31
+R12
+R33
+R34
+!i113 0
+R15
+R2
+vN2LpGrWeXp0NUM9leMU34G7lTGM2mdc+YGH656/FEUaFuOK+YjO4HvVyzoj5K5Jp
+R36
+!i10b 0
+!s100 5ORM5O7^71JPJDd4eW82m1
+IBYFP=c6>TUCg33VORnIoW1
+R5
+!i119 1
+!i8a 1408557040
+R6
+R37
+R38
+R39
+L0 983
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+nb8ecc46
+vC5DIAQXKYIFZkPHUD9B6U7K0zjdKLyCs2ium6mt+yzIwugYC3s3gClduSC7JMKyF
+R36
+!i10b 0
+!s100 ]_nh79E3Jd[VQCG8Y^h>90
+IXRYoKEDoDP?H8J6aDATXa3
+R5
+!i119 1
+!i8a 489832880
+R6
+R37
+R38
+R39
+L0 998
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+n7203c66
+vQ1gDZlFpXNmc+5kZq0AoIGPf5ew8HxmlJFXw+s+YCMv/eHcXn3+pLtH52IvQRvHG
+R36
+!i10b 0
+!s100 ?7kh>j]dAz=g5NdaRWn3?2
+I8f@g<AndC@zkA<VM^oPL31
+R5
+!i119 1
+!i8a 1052358384
+R6
+R37
+R38
+R39
+L0 903
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+n43f5976
+vddr3
+Z44 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z45 !s110 1729501753
+!i10b 1
+!s100 OIo`Sd_hA=AC2el6zEnFN2
+I4=]I2380L6N24Z?d0B3CD1
+R5
+!s105 ddr3_v_unit
+S1
+R6
+Z46 w1729477886
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/ddr3.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/ddr3.v
+F4096Mb_ddr3_parameters.vh
+L0 101
+R11
+r1
+!s85 0
+31
+Z47 !s108 1729501753.000000
+!s107 4096Mb_ddr3_parameters.vh|ddr3_device_ID.vh|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/ddr3.v|
+!s90 -reportprogress|300|+define+den4096Mb|+define+x16|+incr|-work|work|-sv|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/ddr3.v|
+!i113 0
+o+incr -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 +define+den4096Mb +define+x16 +incr -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfbIYaY9AiTm6VG3vCxRb3yY6dKiwIAJWGa2pEr8E0B/CEnVkqCQ1glZisUvEdOOoZFOhufHkUtzoKXuw/wcCYg==
+R36
+!i10b 0
+!s100 ]mQ7hQ3G`Ac3[IgeK_@O93
+Id2oDGoYLgn3<fbdSGe7K43
+R5
+!i119 1
+!i8a 1514989376
+R6
+R37
+R38
+R39
+L0 739
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+nc1182d6
+v2rDeVhGdfSpgcExWCOaxzIK0vZ6qHLV/s2+66pT3qUK2/6PGxlv8UsX69glnBX8ANwd2ha68RFpH20cLNNKK/Q==
+R36
+!i10b 0
+!s100 :g=[YJ]4P39b]ReYS9]6K2
+IfbMamm5f]Y2YFZ[:QNcz31
+R5
+!i119 1
+!i8a 28585552
+R6
+R37
+R38
+R39
+L0 1013
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+n4818366
+vDdrCtrl
+R44
+Z48 !s110 1729598630
+!i10b 1
+!s100 `5WFai<c;2G<?bI:ieAe31
+IJNlibIX3V8jNNC?ZCoUh30
+R5
+!s105 DdrCtrl_sv_unit
+S1
+R6
+w1729558728
+8./SIM_MODEL/DdrCtrl.sv
+F./SIM_MODEL/DdrCtrl.sv
+L0 2
+R11
+r1
+!s85 0
+31
+Z49 !s108 1729598630.000000
+Z50 !s107 ddr3_controller.vh|DEFINE_FUNC.vh|./SIM_MODEL/TB_TOP.sv|./SIM_MODEL/SIM_DDR.sv|./SIM_MODEL/DdrCtrl.sv|./SIM_MODEL/DRAM_SYNC_FIFO.sv|
+Z51 !s90 -reportprogress|300|+incr|-work|work|./SIM_MODEL/DRAM_SYNC_FIFO.sv|./SIM_MODEL/DdrCtrl.sv|./SIM_MODEL/SIM_DDR.sv|./SIM_MODEL/TB_TOP.sv|
+!i113 0
+R15
+R2
+n@ddr@ctrl
+vdp_test_pattern_rom
+R23
+!i10b 1
+!s100 X01ehz1SbS`g3[nS9m3DH2
+Ikm4D>=N_[O2BU1M:_BTgh3
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/dp_test_pattern_rom.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/dp_test_pattern_rom.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vDRAM_SYNC_FIFO
+R44
+R48
+!i10b 1
+!s100 K^=hmz>=@h^aR9XA_FDoN3
+IC`^aK7X:0g?VE_XFaj=XS0
+R5
+!s105 DRAM_SYNC_FIFO_sv_unit
+S1
+R6
+w1729563887
+8./SIM_MODEL/DRAM_SYNC_FIFO.sv
+F./SIM_MODEL/DRAM_SYNC_FIFO.sv
+Z52 L0 24
+R11
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 0
+R15
+R2
+n@d@r@a@m_@s@y@n@c_@f@i@f@o
+vefx_asyncreg_14e867dcaeef49fc9073dd1a927d3283
+R45
+!i10b 1
+!s100 =Vlk`ND1lRnhzlKYi0AK`1
+IHkAKl3<FL6jj@dBbB;nRJ1
+R5
+R6
+Z53 w1729480689
+Z54 8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_BBUF_32x256_128x64/Testbench/SYNC_BBUF_32x256_128x64.v
+Z55 FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_BBUF_32x256_128x64/Testbench/SYNC_BBUF_32x256_128x64.v
+Z56 L0 1401
+R11
+r1
+!s85 0
+31
+R47
+Z57 !s107 L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_BBUF_32x256_128x64/Testbench/SYNC_BBUF_32x256_128x64.v|
+Z58 !s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_BBUF_32x256_128x64/Testbench/SYNC_BBUF_32x256_128x64.v|
+!i113 0
+R15
+R2
+vefx_asyncreg_1be10e3c42e24bcca3bc7f3f53f19b47
+R45
+!i10b 1
+!s100 K1`=<>=21>J_3Y:1OBJBi1
+Ilfd8cN@d?7agFTFhNBfHT3
+R5
+R6
+Z59 w1729481149
+Z60 8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_DBUF_16x32_16x32/Testbench/SYNC_DBUF_16x32_16x32.v
+Z61 FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_DBUF_16x32_16x32/Testbench/SYNC_DBUF_16x32_16x32.v
+Z62 L0 1399
+R11
+r1
+!s85 0
+31
+R47
+Z63 !s107 L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_DBUF_16x32_16x32/Testbench/SYNC_DBUF_16x32_16x32.v|
+Z64 !s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/SYNC_DBUF_16x32_16x32/Testbench/SYNC_DBUF_16x32_16x32.v|
+!i113 0
+R15
+R2
+vefx_asyncreg_4356c3099b2e420e8c29023e23b9d1e7
+Z65 !s110 1729501752
+!i10b 1
+!s100 [NNhZ^b7O;SKSR]2[ENaV0
+I82MHj1BF_PjK7IL]@Mcz82
+R5
+R6
+Z66 w1729481208
+R8
+R9
+Z67 L0 1403
+R11
+r1
+!s85 0
+31
+Z68 !s108 1729501752.000000
+R13
+R14
+!i113 0
+R15
+R2
+vefx_asyncreg_5af2f091158d4aef9be2d636e638713f
+R4
+!i10b 1
+!s100 4I7U;^9<8IEgJ??A><OHg1
+I;:5W@nE`Xb6?_ViTWjK5U2
+R5
+R6
+R7
+R8
+R9
+R67
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vefx_asyncreg_70ac10c417bf46339876e239e3725f87
+R23
+!i10b 1
+!s100 [?NVZcG<5bneC2;VXceX40
+I;_8zB9MbX4DWeIP_4T^:o3
+R5
+R6
+Z69 w1729511685
+R60
+R61
+R62
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+vefx_asyncreg_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 Ug^9D_9fbMgD:7R6BfdUT3
+IJMKQ9JLQD]9ScF:ZmBD>I1
+R5
+R6
+R46
+R38
+R39
+L0 1917
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_asyncreg_d2c712b806494e28af9f71597918a616
+R23
+!i10b 1
+!s100 `WFe]O?j=zVeAX5Xn^Q6M0
+Iz<bgKBiGiQHn6^0m5B6ad2
+R5
+R6
+Z70 w1729511721
+R54
+R55
+R56
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+vefx_bram_4454c84705f94a83848d912ff260a3e7
+R23
+!i10b 1
+!s100 N_BdLM3zN4YH9i^01SRYI2
+Il`0=?jKGPEL59j>cd7J7Z3
+R5
+R6
+R24
+R25
+R26
+Z71 L0 145
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vefx_bram_c6ad06d4bb2e4a35bdb0888be3176e40
+R4
+!i10b 1
+!s100 CeLHQR7k[[XM=;f9]d_]V1
+IO_GJ^cL@AefjED?H@Ki1E1
+R5
+R6
+R30
+R31
+R32
+R71
+R11
+r1
+!s85 0
+31
+R12
+R33
+R34
+!i113 0
+R15
+R2
+vJ27N8oE6ieqMsRuadaclcsHl4B4iZR33XfdPCtPD8rJRNMW+c8NGtvSvEddlDdP9
+R36
+!i10b 0
+!s100 86]VG0ehf53nZm<VoYjIz0
+Ik__lT7]55[Zf]E_Ndd<@Z2
+R5
+!i119 1
+!i8a 360677936
+R6
+R37
+R38
+R39
+L0 646
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+n143ec6
+vefx_ddr3_soft_controller_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 :ez53naEkPk0?>UmkVgA;3
+IXCCOY?:Bbg6?PjoO0N0mH3
+R5
+!i119 1
+R6
+R46
+R38
+R39
+L0 445
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_ddr3_soft_controller_tb
+R44
+!s110 1729499982
+!i10b 1
+!s100 ]SVMgLk>bn;Xec663oQc?0
+IS8=R^a2J8ceFziGTeX?g?0
+R5
+!s105 efx_ddr3_soft_controller_tb_v_unit
+S1
+R0
+R46
+8efx_ddr3_soft_controller_tb.v
+Fefx_ddr3_soft_controller_tb.v
+Fddr3_device_ID.vh
+L0 6
+R11
+r1
+!s85 0
+31
+!s108 1729499982.000000
+!s107 ddr3_device_ID.vh|ddr3_controller.vh|efx_ddr3_soft_controller_tb.v|
+!s90 -reportprogress|300|-sv|efx_ddr3_soft_controller_tb.v|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vEFX_DPRAM10
+R23
+!i10b 1
+!s100 ja]0^]jj2kHPncj`YAMBV0
+IMFIdHdo<18Ai8LY?>dHoc0
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram10.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram10.v
+Z72 L0 34
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+n@e@f@x_@d@p@r@a@m10
+vEFX_DPRAM_5K
+R23
+!i10b 1
+!s100 3a_za4;:<Db6=RGUjZn920
+INElh87;3NGnIV`;J7h`440
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram_5k.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_dpram_5k.v
+R72
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+n@e@f@x_@d@p@r@a@m_5@k
+vefx_fifo_bin2gray_14e867dcaeef49fc9073dd1a927d3283
+R45
+!i10b 1
+!s100 ZC[>ZABlCT6FH5:N0Y3]o3
+Ih@U4:SO7]eEU1FhK4eY@z1
+R5
+R6
+R53
+R54
+R55
+Z73 L0 211
+R11
+r1
+!s85 0
+31
+R47
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_bin2gray_1be10e3c42e24bcca3bc7f3f53f19b47
+R45
+!i10b 1
+!s100 VE]>51eDhUk@?n4jBM6K62
+IP3a9Qn:cmh7K@kj:Rh`mi3
+R5
+R6
+R59
+R60
+R61
+Z74 L0 209
+R11
+r1
+!s85 0
+31
+R47
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_bin2gray_4356c3099b2e420e8c29023e23b9d1e7
+R65
+!i10b 1
+!s100 VKRlkOngEMM;<jz9CJJQL0
+IRgV_[Bn]iFz?JVo_a`kBG2
+R5
+R6
+R66
+R8
+R9
+Z75 L0 213
+R11
+r1
+!s85 0
+31
+R68
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_bin2gray_5af2f091158d4aef9be2d636e638713f
+R4
+!i10b 1
+!s100 A=c8bAbe[VO0GTI^jMm^d0
+IY`:k^H]7<TnW=oF:6ECkR3
+R5
+R6
+R7
+R8
+R9
+R75
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_bin2gray_70ac10c417bf46339876e239e3725f87
+R23
+!i10b 1
+!s100 `HPhmz<j8G:e_[znnWneZ0
+IUzNfK3?b11^1`XYhhg0EW0
+R5
+R6
+R69
+R60
+R61
+R74
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_bin2gray_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 3ehcWfImZm`i0h0kj:3KA1
+I^UH]P;FgEX;D9K]1gi2d[1
+R5
+R6
+R46
+R38
+R39
+L0 2464
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_fifo_bin2gray_d2c712b806494e28af9f71597918a616
+R23
+!i10b 1
+!s100 iemJ?l8[4[168?nFZmlJ43
+Ij]Rfz<?YQ[kH_Gom<m5c71
+R5
+R6
+R70
+R54
+R55
+R73
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_ctl_14e867dcaeef49fc9073dd1a927d3283
+R45
+!i10b 1
+!s100 D>U?EJXabN6Ho8`ai1Q>Q2
+I?WmhES]mBeNEQ7R:gI]<F2
+R5
+R6
+R53
+R54
+R55
+Z76 L0 951
+R11
+r1
+!s85 0
+31
+R47
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_ctl_1be10e3c42e24bcca3bc7f3f53f19b47
+R45
+!i10b 1
+!s100 YJhZhL9kfIHN^f9M_Z_6@2
+Ilm:@:CQ5]<Y]4H9P^`ZKm1
+R5
+R6
+R59
+R60
+R61
+Z77 L0 949
+R11
+r1
+!s85 0
+31
+R47
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_ctl_4356c3099b2e420e8c29023e23b9d1e7
+R65
+!i10b 1
+!s100 fPh1OJB6f>_zG9Ggfzf^02
+IH1XUR:?e93oL:aO31LJd^0
+R5
+R6
+R66
+R8
+R9
+Z78 L0 953
+R11
+r1
+!s85 0
+31
+R68
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_ctl_5af2f091158d4aef9be2d636e638713f
+R4
+!i10b 1
+!s100 ndI^>E@@RXYaTnDk6ePWG0
+IUKn`Y3G:JEoPAi@T2aWaE0
+R5
+R6
+R7
+R8
+R9
+R78
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_ctl_70ac10c417bf46339876e239e3725f87
+R23
+!i10b 1
+!s100 4K9A?4kSF^LhMYHMbVX533
+IKCR3m`BVizi1XjLEUGO=d3
+R5
+R6
+R69
+R60
+R61
+R77
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_ctl_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 lc1jX7lZL:_Fk9ozm5oBU3
+IXk2ekW`YihNQa_XEejQ`H1
+R5
+R6
+R46
+R38
+R39
+L0 2044
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_fifo_ctl_d2c712b806494e28af9f71597918a616
+R23
+!i10b 1
+!s100 CnB]_IBS9zOBRiSLE065a1
+IT[nP<83Sl5ZfElKeHUPnM2
+R5
+R6
+R70
+R54
+R55
+R76
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_datasync_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 ?4BjO1F:5EkJ:zN;JIR4o3
+IGe_B>lh3_[R[:mi]CJOen3
+R5
+R6
+R46
+R38
+R39
+L0 1804
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_fifo_gray2bin_14e867dcaeef49fc9073dd1a927d3283
+R45
+!i10b 1
+!s100 jTB?1^J]2>>PVQe0jH4B42
+IZFW`i7=i_k8_>ocU5nWN40
+R5
+R6
+R53
+R54
+R55
+Z79 L0 123
+R11
+r1
+!s85 0
+31
+R47
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_gray2bin_1be10e3c42e24bcca3bc7f3f53f19b47
+R45
+!i10b 1
+!s100 HdJ>[z99>6II7=7G=H<l@2
+I<LIbj`mWjTD8KZ@f2f3E^1
+R5
+R6
+R59
+R60
+R61
+Z80 L0 121
+R11
+r1
+!s85 0
+31
+R47
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_gray2bin_4356c3099b2e420e8c29023e23b9d1e7
+R65
+!i10b 1
+!s100 iYc2>F1W87CIXliIZJn_E1
+I<oURF2:VCVJ@NhFXcZ8fL0
+R5
+R6
+R66
+R8
+R9
+Z81 L0 125
+R11
+r1
+!s85 0
+31
+R68
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_gray2bin_5af2f091158d4aef9be2d636e638713f
+R4
+!i10b 1
+!s100 c1e<@<N0TL>2zghDjzD2K0
+IMJkBV`C4PjeK=A17Nb1jQ0
+R5
+R6
+R7
+R8
+R9
+R81
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_gray2bin_70ac10c417bf46339876e239e3725f87
+R23
+!i10b 1
+!s100 oT]noGE9GHUoIZo;8?1kf0
+IT]7ReUT0>Y_<eK3[kJCPV0
+R5
+R6
+R69
+R60
+R61
+R80
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_gray2bin_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 WCAT:8AEAPem:B:dBP;4W2
+IbB`:71dOC[>CRaP;nc2N=2
+R5
+R6
+R46
+R38
+R39
+L0 1719
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_fifo_gray2bin_d2c712b806494e28af9f71597918a616
+R23
+!i10b 1
+!s100 g4VZkCVkid[5KGSPMP]582
+IZE[`Q3kCdFQi]<?K0PBlT2
+R5
+R6
+R70
+R54
+R55
+R79
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_ram_14e867dcaeef49fc9073dd1a927d3283
+R45
+!i10b 1
+!s100 N=GAZgLcH1:?8m70XYP`U2
+I=IhX5f322DLC]c:Z:81jD0
+R5
+R6
+R53
+R54
+R55
+Z82 L0 620
+R11
+r1
+!s85 0
+31
+R47
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_ram_1be10e3c42e24bcca3bc7f3f53f19b47
+R45
+!i10b 1
+!s100 6?2kmRJSDg;nC@WkkPkH@0
+IRIT>SNWZKT0KhbUo2O=JA1
+R5
+R6
+R59
+R60
+R61
+Z83 L0 618
+R11
+r1
+!s85 0
+31
+R47
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_ram_4356c3099b2e420e8c29023e23b9d1e7
+R65
+!i10b 1
+!s100 eSUK0=jOz;b4<n;@<60m]3
+IjX`<Ll7f]Xa<SX[PeXd0b0
+R5
+R6
+R66
+R8
+R9
+Z84 L0 622
+R11
+r1
+!s85 0
+31
+R68
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_ram_5af2f091158d4aef9be2d636e638713f
+R4
+!i10b 1
+!s100 Ob;e]h<Bl2noE[aKc@;Dz3
+Ik1`25?gD`197BAgnhmJ__1
+R5
+R6
+R7
+R8
+R9
+R84
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_ram_70ac10c417bf46339876e239e3725f87
+R23
+!i10b 1
+!s100 bXFdNG=cc;fiaDBEme`G>3
+I;:AANZUSK18bY7d2zRETC2
+R5
+R6
+R69
+R60
+R61
+R83
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_ram_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 ?FdA2XRzT2jf;ElmlC6OA1
+I1hgdim>1YFlcaAaTNi^N>1
+R5
+R6
+R46
+R38
+R39
+L0 1384
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_fifo_ram_d2c712b806494e28af9f71597918a616
+R23
+!i10b 1
+!s100 TGAbF`MbW4_?Z0Q4G6Gc[0
+IGG=0KKQg`;^g>8Dgd8E^k0
+R5
+R6
+R70
+R54
+R55
+R82
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_top_14e867dcaeef49fc9073dd1a927d3283
+R45
+!i10b 1
+!s100 @TzARPbFJE3ZAbo2^gM160
+IG@XcWml]^nl;NKJn`Uhf41
+R5
+R6
+R53
+R54
+R55
+Z85 L0 300
+R11
+r1
+!s85 0
+31
+R47
+R57
+R58
+!i113 0
+R15
+R2
+vefx_fifo_top_1be10e3c42e24bcca3bc7f3f53f19b47
+R45
+!i10b 1
+!s100 :alP>78O;oFBm^KAH:L=O2
+IhV>z`87^jK4]E3[SB9cFR2
+R5
+R6
+R59
+R60
+R61
+Z86 L0 298
+R11
+r1
+!s85 0
+31
+R47
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_top_4356c3099b2e420e8c29023e23b9d1e7
+R65
+!i10b 1
+!s100 =NXM7Ukb5jJLK[bG1fDj02
+IcECPOLDl9dSS4YQ6UV29;2
+R5
+R6
+R66
+R8
+R9
+Z87 L0 302
+R11
+r1
+!s85 0
+31
+R68
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_top_5af2f091158d4aef9be2d636e638713f
+R4
+!i10b 1
+!s100 F<70i;_L1CY?n7CFJ?GjY3
+I6`b8L<4kCnnaSlOamPUSf3
+R5
+R6
+R7
+R8
+R9
+R87
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vefx_fifo_top_70ac10c417bf46339876e239e3725f87
+R23
+!i10b 1
+!s100 @6RMl2B?;:SAbi?ObNAL02
+I7T]l_ER=16z5R3>Kga^[20
+R5
+R6
+R69
+R60
+R61
+R86
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+vefx_fifo_top_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 fTJi[5i3IT6YWG[53Zj;M2
+IZ[0Szec5bAZIB:V6?geZa2
+R5
+R6
+R46
+R38
+R39
+L0 1064
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_fifo_top_d2c712b806494e28af9f71597918a616
+R23
+!i10b 1
+!s100 0_<=LAne]WjdzzBFgnZ920
+IoN?n<1`lz4b]_hWif;m;g1
+R5
+R6
+R70
+R54
+R55
+R85
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+vEFX_IDDR
+R45
+!i10b 1
+!s100 ZFbF]U:^YJ=AXdScf8l5F2
+Id3U@YH36mNOW4@8Ga4nZF1
+R5
+R6
+R46
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_iddr.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_iddr.v
+L0 21
+R11
+r1
+!s85 0
+31
+R47
+!s107 L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_iddr.v|
+!s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_iddr.v|
+!i113 0
+R15
+R2
+n@e@f@x_@i@d@d@r
+vEFX_ODDR
+R36
+!i10b 1
+!s100 hf1G3`ZN3T0lBP`Fg4Z?e2
+IT@abVMX<;QB7H:Y=5d@kY2
+R5
+R6
+R46
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_oddr.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_oddr.v
+L0 22
+R11
+r1
+!s85 0
+31
+R40
+!s107 L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_oddr.v|
+!s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_oddr.v|
+!i113 0
+R15
+R2
+n@e@f@x_@o@d@d@r
+vEFX_RAM10
+R23
+!i10b 1
+!s100 ^@ok>FJXg7<B>aFICS8JE2
+IU@687K2nT7b4ahF<26A>h1
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram10.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram10.v
+Z88 L0 36
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+n@e@f@x_@r@a@m10
+vEFX_RAM_5K
+R23
+!i10b 1
+!s100 <;VhzHCgD3]19azz58`U00
+I^N<E90dL]9>ISBeBdfJJ=3
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram_5k.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/efx_ram_5k.v
+R88
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+n@e@f@x_@r@a@m_5@k
+vefx_resetsync_14e867dcaeef49fc9073dd1a927d3283
+R45
+!i10b 1
+!s100 ]78_^kaEQC0[C2kIImJ]Y0
+IQN02:4Hj02mJ_^F>F7JP<2
+R5
+R6
+R53
+R54
+R55
+Z89 L0 1356
+R11
+r1
+!s85 0
+31
+R47
+R57
+R58
+!i113 0
+R15
+R2
+vefx_resetsync_1be10e3c42e24bcca3bc7f3f53f19b47
+R45
+!i10b 1
+!s100 ]8eD3R:Jg8hCKHbIk3TIH3
+I8V9WQlS1WGcRHN?gomG0k0
+R5
+R6
+R59
+R60
+R61
+Z90 L0 1354
+R11
+r1
+!s85 0
+31
+R47
+R63
+R64
+!i113 0
+R15
+R2
+vefx_resetsync_4356c3099b2e420e8c29023e23b9d1e7
+R65
+!i10b 1
+!s100 =B_z>eUzn9lWVg^XDBT:@2
+IBS@LNM7K]A8b80LanX^[@3
+R5
+R6
+R66
+R8
+R9
+Z91 L0 1358
+R11
+r1
+!s85 0
+31
+R68
+R13
+R14
+!i113 0
+R15
+R2
+vefx_resetsync_5af2f091158d4aef9be2d636e638713f
+R4
+!i10b 1
+!s100 L0<e:[IJfFbh43`zBo2Bl0
+IZKm=nOJI8P;8iEe^8gP>B3
+R5
+R6
+R7
+R8
+R9
+R91
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vefx_resetsync_70ac10c417bf46339876e239e3725f87
+R23
+!i10b 1
+!s100 oOUDm_7H1ni[NZFK1E1j:2
+ISB[i:d=X0Uo0i8P54MjlP0
+R5
+R6
+R69
+R60
+R61
+R90
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+vefx_resetsync_bc08b398162e498eaa40980c1f3d5cf6
+R36
+!i10b 1
+!s100 >8m8eKn<h_IL5HU0ah5fz3
+I4Ah<F4TX95=TaNLoZB2XR3
+R5
+R6
+R46
+R38
+R39
+L0 1872
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+vefx_resetsync_d2c712b806494e28af9f71597918a616
+R23
+!i10b 1
+!s100 4;B_h6Fz>biWK4N8Te;0d2
+I[@;O]JmcIgO[z1<eez`1D2
+R5
+R6
+R70
+R54
+R55
+R89
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+vefx_simple_dual_port_ram_4454c84705f94a83848d912ff260a3e7
+R23
+!i10b 1
+!s100 n<E^o@1d;dJ:[=12oAc^a2
+IA_8^jDI?PK@M:XnGIO2cW2
+R5
+R6
+R24
+R25
+R26
+Z92 L0 1613
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vefx_simple_dual_port_ram_c6ad06d4bb2e4a35bdb0888be3176e40
+R4
+!i10b 1
+!s100 `0NO]OBf`gfXS<[G5KWlX0
+IUEXI[COR`Z^NV52no1n<O0
+R5
+R6
+R30
+R31
+R32
+R92
+R11
+r1
+!s85 0
+31
+R12
+R33
+R34
+!i113 0
+R15
+R2
+vEFX_SRL8
+R36
+!i10b 1
+!s100 V4_Y:C`6CT;zCh0H31YE[2
+IM9VTcVOgzie`Cnf^;ENHa1
+R5
+R6
+R46
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_srl8.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_srl8.v
+L0 17
+R11
+r1
+!s85 0
+31
+R40
+!s107 L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_srl8.v|
+!s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/efx_srl8.v|
+!i113 0
+R15
+R2
+n@e@f@x_@s@r@l8
+vencode
+R16
+!i10b 1
+!s100 n[ARKc?YBTg9WnhoMK;2`3
+InNJhCKIG6Xz5mA4S4iPk70
+R5
+R6
+w1684072998
+8../src/hdmi_ip/encode.v
+F../src/hdmi_ip/encode.v
+L0 46
+R11
+r1
+!s85 0
+31
+R49
+Z93 !s107 ../src/hdmi_ip/tmds_channel.v|../src/hdmi_ip/serdes_4b_10to1.v|../src/hdmi_ip/rgb2dvi.v|../src/hdmi_ip/hdmi_tx_ip.v|../src/hdmi_ip/encode.v|
+Z94 !s90 -reportprogress|300|+define+_SIM|-cover|bcest|+incr|-work|work|../src/hdmi_ip/encode.v|../src/hdmi_ip/hdmi_tx_ip.v|../src/hdmi_ip/rgb2dvi.v|../src/hdmi_ip/serdes_4b_10to1.v|../src/hdmi_ip/tmds_channel.v|
+!i113 0
+R20
+R21
+R22
+R2
+vexample_top
+R48
+!i10b 1
+!s100 Lk2V6jc[OP:Jme]_dG43m1
+I3ZIiJCFaI3JT]CAG2a_kd0
+R5
+R6
+w1729588610
+8../example_top.v
+F../example_top.v
+L0 3
+R11
+r1
+!s85 0
+31
+R49
+!s107 ../example_top.v|
+!s90 -reportprogress|300|+define+_SIM|-cover|bcest|+incr|-work|work|../example_top.v|
+!i113 0
+R20
+R21
+R22
+R2
+vHDMI_IMG_GEN
+R16
+!i10b 1
+!s100 9kh`fUXM<V]Pz[U:PK0le0
+IbmO_ml9Gj@nK4X<<CFcTG1
+R5
+R6
+Z95 w1729598575
+Z96 8../src/USER_LOGIC/HDMI_IMG_GEN.v
+Z97 F../src/USER_LOGIC/HDMI_IMG_GEN.v
+L0 2
+R11
+r1
+!s85 0
+31
+R17
+Z98 !s107 ../src/USER_LOGIC/UART_DATA_WCTL.v|../src/USER_LOGIC/HDMI_IMG_GEN.v|
+Z99 !s90 -reportprogress|300|+define+_SIM|-cover|bcest|+incr|-work|work|../src/USER_LOGIC/HDMI_IMG_GEN.v|../src/USER_LOGIC/UART_DATA_WCTL.v|
+!i113 0
+R20
+R21
+R22
+R2
+n@h@d@m@i_@i@m@g_@g@e@n
+vhdmi_tx_ip
+R16
+!i10b 1
+!s100 >f`O9FJ0_Azi89hh?8TE51
+IO84254Jz>Thg1zlJ=46hS2
+R5
+R6
+w1683997549
+8../src/hdmi_ip/hdmi_tx_ip.v
+F../src/hdmi_ip/hdmi_tx_ip.v
+Z100 L0 13
+R11
+r1
+!s85 0
+31
+R49
+R93
+R94
+!i113 0
+R20
+R21
+R22
+R2
+vIMG_H_RAM
+R16
+!i10b 1
+!s100 [dMbZdB3[F;NSe>8ViEEK1
+I@Q8Qk7`8o9F4XhZToZDk72
+R5
+R6
+w1729588809
+8../src/USER_LOGIC/IMG_RAM_TOP/IMG_H_RAM.v
+F../src/USER_LOGIC/IMG_RAM_TOP/IMG_H_RAM.v
+L0 2
+R11
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R2
+n@i@m@g_@h_@r@a@m
+vIMG_RAM_TOP
+R16
+!i10b 1
+!s100 :C=naO09a2@@iP<Jon@322
+I=16?8]CF<PhomPAc;MkK_3
+R5
+R6
+w1729588694
+8../src/USER_LOGIC/IMG_RAM_TOP/IMG_RAM_TOP.v
+F../src/USER_LOGIC/IMG_RAM_TOP/IMG_RAM_TOP.v
+L0 2
+R11
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R2
+n@i@m@g_@r@a@m_@t@o@p
+vIMG_RCTL
+R16
+!i10b 1
+!s100 UQ[QR:1HhdnnAHMAL[UJ63
+IPf3hX`2?Y@lPai`UUnUGC3
+R5
+R6
+w1729565352
+8../src/USER_LOGIC/IMG_RAM_TOP/IMG_RCTL.v
+F../src/USER_LOGIC/IMG_RAM_TOP/IMG_RCTL.v
+L0 2
+R11
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R2
+n@i@m@g_@r@c@t@l
+vINTERPOLATION
+R16
+!i10b 1
+!s100 j]nT`4N6JgNmaNW:UJC>I0
+IRD=TL3E]J70]DV7m`EJAZ0
+R5
+R6
+R95
+R96
+R97
+L0 413
+R11
+r1
+!s85 0
+31
+R17
+R98
+R99
+!i113 0
+R20
+R21
+R22
+R2
+n@i@n@t@e@r@p@o@l@a@t@i@o@n
+vKEY_CHECK
+R44
+R16
+!i10b 1
+!s100 ChaSnSKOe5B::i7J<DVN_0
+InTCYm7OibLGAgIlPJGb`X2
+R5
+!s105 KEY_CHECK_sv_unit
+S1
+R6
+w1729478582
+8../src/USER_IP/KEY/KEY_CHECK.sv
+F../src/USER_IP/KEY/KEY_CHECK.sv
+R52
+R11
+r1
+!s85 0
+31
+R17
+!s107 ../src/USER_IP/KEY/KEY_CHECK.sv|
+!s90 -reportprogress|300|+define+_SIM|-cover|bcest|+incr|-work|work|../src/USER_IP/KEY/KEY_CHECK.sv|
+!i113 0
+R20
+R21
+R22
+R2
+n@k@e@y_@c@h@e@c@k
+vmemory_checker_axi
+R36
+!i10b 1
+!s100 6d3MaI2Mo5KmULe0k??Oh3
+IW:QJF41?WfKGQYN]]WSmn0
+R5
+R6
+R46
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/memory_checker_axi.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/memory_checker_axi.v
+L0 1
+R11
+r1
+!s85 0
+31
+R40
+!s107 L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/memory_checker_axi.v|
+!s90 -reportprogress|300|+incr|-work|work|L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/DdrCtrl/Testbench/memory_checker_axi.v|
+!i113 0
+R15
+R2
+vmonitor_sdp
+R23
+!i10b 1
+!s100 a:O6C=1Rnij[UZMe_A33z0
+IZ_<fPo8e=MkdJc:fIU@<42
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sdp.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sdp.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vmonitor_sp
+R23
+!i10b 1
+!s100 iQ;EWT5fnnWB^gO_PAP]D1
+Im2lBza;c[?OZW6;dk1g6z1
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sp.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_sp.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vmonitor_tdp
+R23
+!i10b 1
+!s100 7W=oY^[8TF]71o0k=g`1l0
+I5QVb:@ImK<DQAzhlI]>OC0
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_tdp.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/monitor_tdp.v
+L0 3
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vb+KVa/pynCwYRJ448PSR/zJuZqvg8XcW+CIPkWeOv8PTbpN9ZLc6qDVqpzjeJT6F
+R36
+!i10b 0
+!s100 Wn6=DG]zKg>z5b1;17ZX31
+I<8VE616o]5aR]Jh9QIEi<3
+R5
+!i119 1
+!i8a 1751096112
+R6
+R37
+R38
+R39
+L0 429
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+n9079c46
+vGrk6IrRFhUh5mHAqCxQmGFSwkCW3SK7JBkyHWLmi0a8h1ekj+OTpROEdsMN64nu7
+R36
+!i10b 0
+!s100 9VW;OKlA[Vl>o2k@WiBQH2
+ILIIAXS;DPKb02k:fI`44P0
+R5
+!i119 1
+!i8a 1514535024
+R6
+R37
+R38
+R39
+L0 406
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+nbb44156
+vUFRWpANZBoqU97pzicYU24CADGCzV+rayxq2ai2M7Oa3CZoullXEUv6N1HJZ+9WZ
+R36
+!i10b 0
+!s100 YT@[mMfzMmn[WRLeODJ=81
+I3A9;>7V=enfPgROcRflKL3
+R5
+!i119 1
+!i8a 850437920
+R6
+R37
+R38
+R39
+L0 388
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+n9b29a86
+v+qYAJ8Xw0GNeUHw/FoxfVHqkgfo5F9gpbXYZbt9aqpB6TiB5EV+blwAoMYg5+aoU
+R36
+!i10b 0
+!s100 D5aCKHhLY6XXUdldWP?o>0
+Ia=^0fn@GaB7enE5PiXbn11
+R5
+!i119 1
+!i8a 186773872
+R6
+R37
+R38
+R39
+L0 370
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+nae78c06
+vrgb2dvi
+R16
+!i10b 1
+!s100 XE9MZSVfVgzHYK0ZedI8Z2
+I^05FkmW3FH>iCGVjI89bX2
+R5
+R6
+w1687385071
+8../src/hdmi_ip/rgb2dvi.v
+F../src/hdmi_ip/rgb2dvi.v
+L0 7
+R11
+r1
+!s85 0
+31
+R49
+R93
+R94
+!i113 0
+R20
+R21
+R22
+R2
+vserdes_4b_10to1
+R16
+!i10b 1
+!s100 2l38DOU?MdR0e;3Wehe7A2
+I<AIG_i1oG3V`c>I9ek_ld1
+R5
+R6
+w1675323527
+8../src/hdmi_ip/serdes_4b_10to1.v
+F../src/hdmi_ip/serdes_4b_10to1.v
+R100
+R11
+r1
+!s85 0
+31
+R49
+R93
+R94
+!i113 0
+R20
+R21
+R22
+R2
+vsignal_gen_sdp
+R23
+!i10b 1
+!s100 I92R42=P;5R5gM0IA<lNG3
+IOL@>UT;65>ao3ha]c4b8k3
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sdp.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sdp.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vsignal_gen_sp
+R23
+!i10b 1
+!s100 hGS[A4zYJCLPHR_VnAY1Q1
+I`:B>JZ?>Gd5MAY0[YCCjV0
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sp.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sp.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vsignal_gen_sprom
+R23
+!i10b 1
+!s100 3N]9fV?0F;Dl_Ez8>G=6`2
+I=blV=0@Ub]<910O3VHj`m0
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sprom.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_sprom.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vsignal_gen_tdp
+R23
+!i10b 1
+!s100 lzi54QX81[em10z[>:5L90
+IoHk^FN3Q361SKzmiP>[SG1
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_tdp.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/signal_gen_tdp.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vSIM_DDR
+R44
+R48
+!i10b 1
+!s100 4M9LmB=KhhaIF<DO4?iI42
+ILPK6]:6TkZKQXN_dia]=@3
+R5
+!s105 SIM_DDR_sv_unit
+S1
+R6
+w1729585943
+8./SIM_MODEL/SIM_DDR.sv
+F./SIM_MODEL/SIM_DDR.sv
+FDEFINE_FUNC.vh
+L0 2
+R11
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 0
+R15
+R2
+n@s@i@m_@d@d@r
+vZ3FJ5ow9UUETx3x1sBkWgmfmDXS7Sxxpgm/NQK4Lh1dj4tOrOuMHWqlKS9GWGte0
+R36
+!i10b 0
+!s100 lL9P:I1oYPo^`kO;R]<;k1
+Ifj4UQAgi7=2NR<PBX7ngF3
+R5
+!i119 1
+!i8a 733695680
+R6
+R37
+R38
+R39
+L0 333
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+naef9546
+vSYNC_BBUF_32x256_128x64
+R23
+!i10b 1
+!s100 ck_PMLnHM1T]7TfhV=J0=1
+Ib7EjK905zbiTU5:O=UXL03
+R5
+R6
+R70
+R54
+R55
+R10
+R11
+r1
+!s85 0
+31
+R27
+R57
+R58
+!i113 0
+R15
+R2
+n@s@y@n@c_@b@b@u@f_32x256_128x64
+vSYNC_DBUF_16x32_16x32
+R23
+!i10b 1
+!s100 [YIERZX^6QEYd<V^aYZEP1
+IZLNzfM6=nn5hT:G47Lmkb0
+R5
+R6
+R69
+R60
+R61
+R10
+R11
+r1
+!s85 0
+31
+R27
+R63
+R64
+!i113 0
+R15
+R2
+n@s@y@n@c_@d@b@u@f_16x32_16x32
+vTB_TOP
+R44
+R48
+!i10b 1
+!s100 J<?MinI[hT<z@C[m9:]0g2
+INa^Z9?midL`@H01PcI5Cz3
+R5
+!s105 TB_TOP_sv_unit
+S1
+R6
+w1729510231
+8./SIM_MODEL/TB_TOP.sv
+F./SIM_MODEL/TB_TOP.sv
+L0 7
+R11
+r1
+!s85 0
+31
+R49
+R50
+R51
+!i113 0
+R15
+R2
+n@t@b_@t@o@p
+vtdp_test_pattern
+R23
+!i10b 1
+!s100 0FIg`QngBe9@]aEm<nX561
+IiR>EQn173>>iT_`n9:1>63
+R5
+R6
+R24
+8L:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/tdp_test_pattern.v
+FL:/32-Gitea/OD/02-1_Ti60_OV5640_LCD-HDMI_1080P60/ip/BRAM_128x1024_32x4096/Testbench/tdp_test_pattern.v
+L0 2
+R11
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R15
+R2
+vtmds_channel
+R16
+!i10b 1
+!s100 LZOzMe@6CVJ>n@SAJINPk0
+IGHz=Q6mE]LA:f>=^DM:?F3
+R5
+R6
+w1651830207
+8../src/hdmi_ip/tmds_channel.v
+F../src/hdmi_ip/tmds_channel.v
+L0 4
+R11
+r1
+!s85 0
+31
+R49
+R93
+R94
+!i113 0
+R20
+R21
+R22
+R2
+vM+1DoUvy+0MtC5bNQuzyI5AjJ88udVOWhYDDuFFCxyT471gqaQ0DrTT15D0Y5H2M
+R36
+!i10b 0
+!s100 E5O:bzgH:a=nOhOUPS;RY1
+I>^4`;OlC@^7O?PWP3o0k33
+R5
+!i119 1
+!i8a 2074215872
+R6
+R37
+R38
+R39
+R73
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+nc7610a6
+vUART_DATA_WCTL
+R16
+!i10b 1
+!s100 ^9^V>?P`bGKLX>4aCQgeA0
+IC]O`2cBM10`SGBVBVaTTE2
+R5
+R6
+w1729495969
+8../src/USER_LOGIC/UART_DATA_WCTL.v
+F../src/USER_LOGIC/UART_DATA_WCTL.v
+L0 4
+R11
+r1
+!s85 0
+31
+R17
+R98
+R99
+!i113 0
+R20
+R21
+R22
+R2
+n@u@a@r@t_@d@a@t@a_@w@c@t@l
+vUART_IF
+R44
+R16
+!i10b 1
+!s100 G^G79jIb6An^NTe5f?emW1
+I5;4;Mf=l^e2iM4dMP8f4=2
+R5
+!s105 UART_IF_sv_unit
+S1
+R6
+w1729478879
+8../src/USER_IP/UART/UART_IF.sv
+F../src/USER_IP/UART/UART_IF.sv
+R52
+R11
+r1
+!s85 0
+31
+R17
+Z101 !s107 ../src/USER_IP/UART/UART_TX.sv|../src/USER_IP/UART/UART_RX.sv|../src/USER_IP/UART/UART_IF.sv|
+Z102 !s90 -reportprogress|300|+define+_SIM|-cover|bcest|+incr|-work|work|../src/USER_IP/UART/UART_IF.sv|../src/USER_IP/UART/UART_RX.sv|../src/USER_IP/UART/UART_TX.sv|
+!i113 0
+R20
+R21
+R22
+R2
+n@u@a@r@t_@i@f
+vUART_RX
+R44
+R16
+!i10b 1
+!s100 k?bm_HzRRE<iC4I=J9abP0
+IK`TC^c2aK?Pc6ZDfLV0[Y0
+R5
+!s105 UART_RX_sv_unit
+S1
+R6
+w1729478601
+8../src/USER_IP/UART/UART_RX.sv
+F../src/USER_IP/UART/UART_RX.sv
+R52
+R11
+r1
+!s85 0
+31
+R17
+R101
+R102
+!i113 0
+R20
+R21
+R22
+R2
+n@u@a@r@t_@r@x
+vUART_TX
+R44
+R16
+!i10b 1
+!s100 B?3QI0lk[?Uoe_:gY[b0A1
+I47gCZCnB00SNB1>X0e4DK2
+R5
+!s105 UART_TX_sv_unit
+S1
+R6
+w1729478608
+8../src/USER_IP/UART/UART_TX.sv
+F../src/USER_IP/UART/UART_TX.sv
+R52
+R11
+r1
+!s85 0
+31
+R17
+R101
+R102
+!i113 0
+R20
+R21
+R22
+R2
+n@u@a@r@t_@t@x
+vhaltEOKhulByZtm6WAm9cQ63zSfDQsW/JFw61bUv0wpsc0hwi7iwlGxE1LJO4tSm236m6OwV33zM9lMWw+7Z3Q==
+R36
+!i10b 0
+!s100 K@l7KIS^0SN[@aoVzI?fd0
+IV6H:KgfleazDJM`dUM1zf0
+R5
+!i119 1
+!i8a 1284655616
+R6
+R37
+R38
+R39
+L0 191
+R11
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R15
+R2
+n3a4eed6
+vvideo_driver
+R16
+!i10b 1
+!s100 ?KBGLk<:H`<Te;GTBEo_C1
+INK;h]HdoUhSK2nl:lG[>c1
+R5
+R6
+w1729510535
+8../src/USER_IP/opendv_ip/video_driver.v
+F../src/USER_IP/opendv_ip/video_driver.v
+R52
+R11
+r1
+!s85 0
+31
+R17
+!s107 ../src/USER_IP/opendv_ip/video_driver.v|
+!s90 -reportprogress|300|+define+_SIM|-cover|bcest|+incr|-work|work|../src/USER_IP/opendv_ip/video_driver.v|
+!i113 0
+R20
+R21
+R22
+R2

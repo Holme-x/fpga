@@ -1,0 +1,71 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307
+[EFX-0000 INFO] Compiled: Dec 15 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "D:/Efinity/project/bilinear/bilinear/02-1_Ti60_OV5640_LCD-HDMI_1080P60/Ti60_Demo.xml"
+-- Analyzing Verilog file 'D:/Efinity/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+D:/Efinity/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "D:/Efinity/project/bilinear/bilinear/02-1_Ti60_OV5640_LCD-HDMI_1080P60/Ti60_Demo.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "D:/Efinity/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'D:/Efinity/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'D:/Efinity/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\hdmi_tx_ip.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\encode.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\serdes_4b_10to1.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\tmds_channel.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\hdmi_ip\rgb2dvi.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\KEY\KEY_CHECK.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_RX.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_TX.sv' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v' (VERI-1482)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v(57): INFO: undeclared symbol 'rst', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v' (VERI-1482)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v(60): INFO: analyzing included file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip/lcd_para.v' (VERI-1328)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v(60): INFO: back to file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v' (VERI-2320)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_para.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v' (VERI-1482)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(17): WARNING: parameter 'IDLE' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(18): WARNING: parameter 'UART_CTRL' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(19): WARNING: parameter 'KEY_SM_CTRL' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(20): WARNING: parameter 'KEY_BI_CTRL' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(21): WARNING: parameter 'TRAG_KEY' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v(24): WARNING: parameter 'TIMER_10S' becomes localparam in 'key_all_ctrl' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_size_hang.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v' (VERI-1482)
+-- Analyzing Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v' (VERI-1482)
+-- Verilog file 'D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v' ignored due to errors (VERI-1483)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(486): ERROR: 'r_d5_d0' is not declared (VERI-1128)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(487): ERROR: 'r_d5d4_plus' is not declared (VERI-1128)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(489): ERROR: 'r_d4_d1' is not declared (VERI-1128)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(490): ERROR: 'r_d5_d0' is not declared (VERI-1128)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(491): ERROR: 'r_d5d4_plus' is not declared (VERI-1128)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(493): ERROR: 'r_d4_d1' is not declared (VERI-1128)
+D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v(512): ERROR: module 'bilinear' is ignored due to previous errors (VERI-1072)
+INFO: Analysis took 0.363801 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 56.58 MB, end = 57.332 MB, delta = 0.752 MB
+INFO: 	Analysis peak virtual memory usage = 57.332 MB
+INFO: Analysis resident set memory usage: begin = 59.216 MB, end = 61.112 MB, delta = 1.896 MB
+INFO: 	Analysis peak resident set memory usage = 61.112 MB
+INFO: ***** Ending Analysis ... *****

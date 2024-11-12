@@ -1,0 +1,1026 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:36:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\KEY\KEY_CHECK.sv:24)
+[EFX-0010 VERI-ERROR] cannot open include file 'DEFINE_FUNC.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\KEY\KEY_CHECK.sv:39)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_RX.sv:24)
+[EFX-0010 VERI-ERROR] cannot open include file 'DEFINE_FUNC.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_RX.sv:46)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv:24)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_TX.sv:24)
+[EFX-0010 VERI-ERROR] cannot open include file 'DEFINE_FUNC.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_TX.sv:46)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:2)
+[EFX-0010 VERI-ERROR] port 'AXI_BREADY' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port 'AXI_BVALID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port 'AXI_BID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port 'AXI_BRESP' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:581)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:45:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv:24)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:2)
+[EFX-0010 VERI-ERROR] port 'AXI_BREADY' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port 'AXI_BVALID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port 'AXI_BID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port 'AXI_BRESP' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:581)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:46:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv:24)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\AXIR_BRAMW.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:2)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:2)
+[EFX-0010 VERI-ERROR] port 'AXI_BREADY' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port 'AXI_BVALID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port 'AXI_BID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port 'AXI_BRESP' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:581)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:47:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_IP\UART\UART_IF.sv:24)
+[EFX-0010 VERI-ERROR] cannot open include file 'FPGA_DEFINE.vh' (SORT-1015) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:2)
+[EFX-0010 VERI-ERROR] port 'AXI_BREADY' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port 'AXI_BVALID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port 'AXI_BID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port 'AXI_BRESP' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:581)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:48:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] port 'AXI_BREADY' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:169)
+[EFX-0010 VERI-ERROR] port 'AXI_BVALID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:170)
+[EFX-0010 VERI-ERROR] port 'AXI_BID' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:171)
+[EFX-0010 VERI-ERROR] port 'AXI_BRESP' is not defined (VERI-1171) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'example_top' with formal port declaration list (VERI-1197) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:172)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:581)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:49:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'u_G' is already declared (VERI-1116) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:334)
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'r_bram_re' (VERI-1011) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:121)
+[EFX-0010 VERI-ERROR] 'r_rgb_wdone' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:136)
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'r_bram_re' (VERI-1011) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:254)
+[EFX-0010 VERI-ERROR] 'rst' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:338)
+[EFX-0010 VERI-ERROR] 's_obuf_cnt' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:365)
+[EFX-0010 VERI-ERROR] module 'HDMI_IMG_GEN' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:368)
+[EFX-0010 VERI-ERROR] 'r_tmp0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:386)
+[EFX-0010 VERI-ERROR] 'r_tmp1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:387)
+[EFX-0010 VERI-ERROR] 'r_tmp2' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:388)
+[EFX-0010 VERI-ERROR] 'r_tmp3' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:389)
+[EFX-0010 VERI-ERROR] 'r_frac_w' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:390)
+[EFX-0010 VERI-ERROR] 'r_tmp0_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:392)
+[EFX-0010 VERI-ERROR] 'r_tmp1_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:393)
+[EFX-0010 VERI-ERROR] 'r_tmp2_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:394)
+[EFX-0010 VERI-ERROR] 'r_tmp3_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:395)
+[EFX-0010 VERI-ERROR] 'r_d4' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:397)
+[EFX-0010 VERI-ERROR] 'r_d5' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:398)
+[EFX-0010 VERI-ERROR] 'r_d4_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:400)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:51:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'r_bram_re' (VERI-1011) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:121)
+[EFX-0010 VERI-ERROR] 'r_rgb_wdone' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:136)
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'r_bram_re' (VERI-1011) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:254)
+[EFX-0010 VERI-ERROR] 'rst' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:338)
+[EFX-0010 VERI-ERROR] 's_obuf_cnt' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:365)
+[EFX-0010 VERI-ERROR] module 'HDMI_IMG_GEN' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:368)
+[EFX-0010 VERI-ERROR] 'r_tmp0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:386)
+[EFX-0010 VERI-ERROR] 'r_tmp1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:387)
+[EFX-0010 VERI-ERROR] 'r_tmp2' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:388)
+[EFX-0010 VERI-ERROR] 'r_tmp3' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:389)
+[EFX-0010 VERI-ERROR] 'r_frac_w' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:390)
+[EFX-0010 VERI-ERROR] 'r_tmp0_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:392)
+[EFX-0010 VERI-ERROR] 'r_tmp1_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:393)
+[EFX-0010 VERI-ERROR] 'r_tmp2_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:394)
+[EFX-0010 VERI-ERROR] 'r_tmp3_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:395)
+[EFX-0010 VERI-ERROR] 'r_d4' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:397)
+[EFX-0010 VERI-ERROR] 'r_d5' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:398)
+[EFX-0010 VERI-ERROR] 'r_d4_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:400)
+[EFX-0010 VERI-ERROR] 'r_d5_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:401)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:56:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'rst' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:344)
+[EFX-0010 VERI-ERROR] 's_obuf_cnt' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:371)
+[EFX-0010 VERI-ERROR] module 'HDMI_IMG_GEN' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:374)
+[EFX-0010 VERI-ERROR] 'r_tmp0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:392)
+[EFX-0010 VERI-ERROR] 'r_tmp1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:393)
+[EFX-0010 VERI-ERROR] 'r_tmp2' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:394)
+[EFX-0010 VERI-ERROR] 'r_tmp3' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:395)
+[EFX-0010 VERI-ERROR] 'r_frac_w' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:396)
+[EFX-0010 VERI-ERROR] 'r_tmp0_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:398)
+[EFX-0010 VERI-ERROR] 'r_tmp1_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:399)
+[EFX-0010 VERI-ERROR] 'r_tmp2_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:400)
+[EFX-0010 VERI-ERROR] 'r_tmp3_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:401)
+[EFX-0010 VERI-ERROR] 'r_d4' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:403)
+[EFX-0010 VERI-ERROR] 'r_d5' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:404)
+[EFX-0010 VERI-ERROR] 'r_d4_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:406)
+[EFX-0010 VERI-ERROR] 'r_d5_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:407)
+[EFX-0010 VERI-ERROR] 'r_d4_d1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:409)
+[EFX-0010 VERI-ERROR] 'r_d5_d1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:410)
+[EFX-0010 VERI-ERROR] 'r_new_img' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:412)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 10:56:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_tmp0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:392)
+[EFX-0010 VERI-ERROR] 'r_tmp1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:393)
+[EFX-0010 VERI-ERROR] 'r_tmp2' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:394)
+[EFX-0010 VERI-ERROR] 'r_tmp3' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:395)
+[EFX-0010 VERI-ERROR] 'r_frac_w' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:396)
+[EFX-0010 VERI-ERROR] 'r_tmp0_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:398)
+[EFX-0010 VERI-ERROR] 'r_tmp1_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:399)
+[EFX-0010 VERI-ERROR] 'r_tmp2_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:400)
+[EFX-0010 VERI-ERROR] 'r_tmp3_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:401)
+[EFX-0010 VERI-ERROR] 'r_d4' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:403)
+[EFX-0010 VERI-ERROR] 'r_d5' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:404)
+[EFX-0010 VERI-ERROR] 'r_d4_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:406)
+[EFX-0010 VERI-ERROR] 'r_d5_d0' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:407)
+[EFX-0010 VERI-ERROR] 'r_d4_d1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:409)
+[EFX-0010 VERI-ERROR] 'r_d5_d1' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:410)
+[EFX-0010 VERI-ERROR] 'r_new_img' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:412)
+[EFX-0010 VERI-ERROR] 'r_step_vld' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:416)
+[EFX-0010 VERI-ERROR] 'r_step_vld' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:418)
+[EFX-0010 VERI-ERROR] 'r_new_img' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:422)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:00:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'r_i_rgb' is not permitted (VERI-1100) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:118)
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'r_i_rgb' (VERI-1011) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:118)
+[EFX-0010 VERI-ERROR] module 'UART_DATA_WCTL' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:163)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:01:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:75)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:77)
+[EFX-0010 VERI-ERROR] syntax error near '*' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:83)
+[EFX-0010 VERI-ERROR] syntax error near '*' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:84)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:103)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:104)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:105)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:106)
+[EFX-0010 VERI-ERROR] 'i_rate_coe' is not a task (VERI-1126) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:83)
+[EFX-0010 VERI-ERROR] 'i_rate_coe' is not a task (VERI-1126) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:84)
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'r_roi_vld' (VERI-1011) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:140)
+[EFX-0010 VERI-ERROR] 'r_img_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:142)
+[EFX-0010 VERI-ERROR] 'r_org_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:143)
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'r_roi_vld' (VERI-1011) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:159)
+[EFX-0010 VERI-ERROR] 'r_org_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:159)
+[EFX-0010 VERI-ERROR] module 'IMG_H_RAM' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:182)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:04:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:74)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:76)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:101)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:102)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:103)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:104)
+[EFX-0010 VERI-ERROR] 'r_img_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:139)
+[EFX-0010 VERI-ERROR] 'r_org_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:140)
+[EFX-0010 VERI-ERROR] 'r_org_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:156)
+[EFX-0010 VERI-ERROR] module 'IMG_H_RAM' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:179)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:04:34
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:101)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:102)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:103)
+[EFX-0010 VERI-ERROR] syntax error near '/' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:104)
+[EFX-0010 VERI-ERROR] 'r_img_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:139)
+[EFX-0010 VERI-ERROR] 'r_org_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:140)
+[EFX-0010 VERI-ERROR] 'r_org_h' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:156)
+[EFX-0010 VERI-ERROR] module 'IMG_H_RAM' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:179)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:07:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '(' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:106)
+[EFX-0010 VERI-ERROR] 'u_RREQ_BUF' is already declared (VERI-1116) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:144)
+[EFX-0010 VERI-ERROR] syntax error near '{' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:165)
+[EFX-0010 VERI-ERROR] syntax error near '2' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:166)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:167)
+[EFX-0010 VERI-ERROR] syntax error near 'default' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:168)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'default' used in incorrect context (VERI-2344) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:168)
+[EFX-0010 VERI-ERROR] module 'IMG_RCTL' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:190)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:09:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '{' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:165)
+[EFX-0010 VERI-ERROR] syntax error near '2' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:166)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:167)
+[EFX-0010 VERI-ERROR] syntax error near 'default' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:168)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'default' used in incorrect context (VERI-2344) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:168)
+[EFX-0010 VERI-ERROR] module 'IMG_RCTL' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:190)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:09:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'i_row_h_re' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:165)
+[EFX-0010 VERI-ERROR] module 'IMG_RCTL' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RCTL.v:190)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:10:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'r_bram0_we' is not permitted (VERI-1100) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:41)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'r_bram1_we' is not permitted (VERI-1100) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:42)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'r_bram0_we' is not permitted (VERI-1100) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:45)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'r_bram1_we' is not permitted (VERI-1100) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:46)
+[EFX-0010 VERI-ERROR] module 'BRAM_RW_CTL' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\BRAM_RW_CTL.v:76)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:11:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'i_pixel_clk' on this module (VERI-1010) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:576)
+[EFX-0010 VERI-ERROR] cannot find port 'i_pixel_rgb_re' on this module (VERI-1010) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:578)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:14:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 16 is out of range [15:0] for 's_hdmi_rgb565' (VERI-1216) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:310)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:15:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'SYNC_BBUF_32x256_128x64' (VERI-1063) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:134)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:19:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 's_wbuf_cnt[7]' is constantly driven from multiple places (VDB-1000) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:123)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:134)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:20:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'BRAM_16x2048' (VERI-1063) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:173)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:27:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'datacount_o' on this module (VERI-1010) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:369)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:28:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:370)
+[EFX-0010 VERI-ERROR] module 'HDMI_IMG_GEN' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:375)
+[EFX-0010 VERI-ERROR] module 'INTERPOLATION' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:444)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:28:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] index 14 is out of range [10:0] for 'r_org_w' (VERI-1216) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:264)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:29:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:31:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:36:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 11:43:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:14:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:19:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:34:34
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'clk_27m' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:107)
+[EFX-0010 VERI-ERROR] 'clk_54m' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:108)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:373)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:379)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:399)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:582)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:36:26
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'rst_pixel' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:265)
+[EFX-0010 VERI-ERROR] 'rst_pixel' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:266)
+[EFX-0010 VERI-ERROR] 'rst_pixel' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:267)
+[EFX-0010 VERI-ERROR] 'rst_pixel' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:268)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:366)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:372)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:392)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:575)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:37:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:367)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:373)
+[EFX-0010 VERI-ERROR] 'r_init_set' is not declared (VERI-1128) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:393)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:576)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:37:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:42:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] ANSI port 'clk_24m' cannot be redeclared (VERI-2285) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:15)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (L:\32-Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:578)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:43:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:45:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 10:44:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 10:52:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 12:23:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'u_lcd_driver' is already declared (VERI-1116) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:360)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:625)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 12:25:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'u_lcd_driver' is already declared (VERI-1116) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:360)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:625)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 12:26:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v:91)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v:91)
+[EFX-0010 VERI-ERROR] module 'lcd_driver' is ignored due to previous errors (VERI-1072) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v:132)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 12:27:56
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v:99)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v:99)
+[EFX-0010 VERI-ERROR] module 'lcd_driver' is ignored due to previous errors (VERI-1072) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\lcd_24bit_ip\lcd_driver.v:131)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 12:29:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 's_hdmi_rgb888[18]' is constantly driven from multiple places (VDB-1000) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:312)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:315)
+[EFX-0021 ERROR] Elaboration of module 'example_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 12:29:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 13:29:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 13:50:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 14:26:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 14:33:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 14:53:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:11:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:39:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:50:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:58:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:18:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:20:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:29:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:40:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:52:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 17:05:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 17:20:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 17:42:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 17:59:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 18:16:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 18:42:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 18:52:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 18:59:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 19:12:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 19:32:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 19:48:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 19:55:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 20:04:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 20:12:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 08:03:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'r_rgb_pfull' is not permitted (VERI-1100) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:381)
+[EFX-0010 VERI-ERROR] module 'HDMI_IMG_GEN' is ignored due to previous errors (VERI-1072) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:416)
+[EFX-0010 VERI-ERROR] module 'INTERPOLATION' is ignored due to previous errors (VERI-1072) (E:\Gitea\OD\02-1_Ti60_OV5640_LCD-HDMI_1080P60\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMG_GEN.v:512)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 08:08:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 08:20:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 08:43:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 09:05:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 09:23:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 10:01:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 10:09:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 11:00:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 20:19:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 20:20:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 21:19:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 22:46:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:468)
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:531)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\example_top.v:625)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 22:47:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_uart_tx_done' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:172)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_uart_tx_done' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:174)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_uart_tx_done' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:176)
+[EFX-0010 VERI-ERROR] module 'UART_DATA_WCTL' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:180)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 22:49:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_uart_tx_done' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:172)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_uart_tx_done' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:174)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_uart_tx_done' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:176)
+[EFX-0010 VERI-ERROR] module 'UART_DATA_WCTL' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\UART_DATA_WCTL.v:180)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 22:51:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 23:45:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 01:25:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'cnt_time_1s' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v:54)
+[EFX-0010 VERI-ERROR] 'cnt_time_1s' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v:55)
+[EFX-0010 VERI-ERROR] module 'key_all_ctrl' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\key_all_ctrl.v:134)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 01:26:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 03:06:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 03:50:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 11:57:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_roi_bw' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:53)
+[EFX-0010 VERI-ERROR] 'r_roi_bh' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:53)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_roi_bw' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:55)
+[EFX-0010 VERI-ERROR] illegal expression in target (VERI-1042) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:55)
+[EFX-0010 VERI-ERROR] 'r_roi_bh' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:56)
+[EFX-0010 VERI-ERROR] 'r_h' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:64)
+[EFX-0010 VERI-ERROR] 'r_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:65)
+[EFX-0010 VERI-ERROR] 'r_h' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:67)
+[EFX-0010 VERI-ERROR] 'r_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:68)
+[EFX-0010 VERI-ERROR] 'r_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:69)
+[EFX-0010 VERI-ERROR] 'r_h' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:70)
+[EFX-0010 VERI-ERROR] 'r_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:72)
+[EFX-0010 VERI-ERROR] 'img_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:79)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'org_h_vld' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:79)
+[EFX-0010 VERI-ERROR] 'r_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:80)
+[EFX-0010 VERI-ERROR] 'img_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:81)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'org_h_vld' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:82)
+[EFX-0010 VERI-ERROR] 'roi_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:83)
+[EFX-0010 VERI-ERROR] 'r_img_h' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:85)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 12:00:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_roi_bw' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:79)
+[EFX-0010 VERI-ERROR] illegal expression in target (VERI-1042) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:79)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_roi_bw' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:81)
+[EFX-0010 VERI-ERROR] illegal expression in target (VERI-1042) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:81)
+[EFX-0010 VERI-ERROR] 'img_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:105)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'org_h_vld' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:105)
+[EFX-0010 VERI-ERROR] 'img_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:107)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'org_h_vld' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:108)
+[EFX-0010 VERI-ERROR] 'roi_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:109)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'ram_waddr' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:120)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'ram_waddr' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:122)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'ram_waddr' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:124)
+[EFX-0010 VERI-ERROR] 'roi_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:127)
+[EFX-0010 VERI-ERROR] 'ram_rvld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:133)
+[EFX-0010 VERI-ERROR] 'ram_rvld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:135)
+[EFX-0010 VERI-ERROR] module 'img_ram_rsize' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:151)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 12:03:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_rate_coe' is not permitted (VERI-1195) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:64)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_roi_bw' is not permitted (VERI-1195) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:65)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_roi_ew' is not permitted (VERI-1195) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:66)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_org_h_vld' is not permitted (VERI-1195) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:67)
+[EFX-0010 VERI-ERROR] illegal expression in target (VERI-1042) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:67)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_h_ram_vld' is not permitted (VERI-1195) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:68)
+[EFX-0010 VERI-ERROR] module 'IMG_H_RAM' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_H_RAM.v:186)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 12:06:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_roi_bw' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:79)
+[EFX-0010 VERI-ERROR] illegal expression in target (VERI-1042) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:79)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_roi_bw' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:81)
+[EFX-0010 VERI-ERROR] illegal expression in target (VERI-1042) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:81)
+[EFX-0010 VERI-ERROR] 'img_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:105)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'org_h_vld' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:105)
+[EFX-0010 VERI-ERROR] 'img_h_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:107)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'org_h_vld' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:108)
+[EFX-0010 VERI-ERROR] 'roi_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:109)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'ram_waddr' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:120)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'ram_waddr' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:122)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'ram_waddr' is not permitted (VERI-1100) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:124)
+[EFX-0010 VERI-ERROR] 'roi_vld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:127)
+[EFX-0010 VERI-ERROR] 'ram_rvld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:133)
+[EFX-0010 VERI-ERROR] 'ram_rvld' is not declared (VERI-1128) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:135)
+[EFX-0010 VERI-ERROR] module 'img_ram_rsize' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:151)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 12:14:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'roi_vld' (VERI-1011) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:132)
+[EFX-0010 VERI-ERROR] cannot index into non-array type reg for 'roi_vld' (VERI-1011) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:150)
+[EFX-0010 VERI-ERROR] module 'img_ram_rsize_verti' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\yuandaima\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\img_two_scale_handle\img_ram_rsize_verti.v:173)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 12:19:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 12:41:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 14:15:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 14:25:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'frst' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:108)
+[EFX-0010 VERI-ERROR] cannot find port 'o_h_ram_raddr' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:111)
+[EFX-0010 VERI-ERROR] cannot find port 'o_h_ram_re' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:112)
+[EFX-0010 VERI-ERROR] cannot find port 'i_org_h_vld' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:113)
+[EFX-0010 VERI-ERROR] cannot find port 'i_org_h' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:114)
+[EFX-0010 VERI-ERROR] cannot find port 'i_h_ram_vld' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:115)
+[EFX-0010 VERI-ERROR] cannot find port 'i_read_req_ready' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:118)
+[EFX-0010 VERI-ERROR] cannot find port 'o_read_req_h' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:119)
+[EFX-0010 VERI-ERROR] cannot find port 'o_read_req_vld' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:120)
+[EFX-0010 VERI-ERROR] cannot find port 'o_fix_h' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:123)
+[EFX-0010 VERI-ERROR] cannot find port 'o_fix_h_vld' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:124)
+[EFX-0010 VERI-ERROR] cannot find port 'o_fix_h_empty' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:125)
+[EFX-0010 VERI-ERROR] cannot find port 'i_fix_h_re' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:126)
+[EFX-0010 VERI-ERROR] cannot find port 'o_8row_id' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:129)
+[EFX-0010 VERI-ERROR] cannot find port 'o_8row_h' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:130)
+[EFX-0010 VERI-ERROR] cannot find port 'o_8row_empty' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:131)
+[EFX-0010 VERI-ERROR] cannot find port 'i_8row_re' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:132)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 14:28:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'h_ram_data_' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:115)
+[EFX-0010 VERI-ERROR] cannot find port 'read_req_rd' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:118)
+[EFX-0010 VERI-ERROR] cannot find port 'read_req_vl' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:120)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 14:32:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] '.name implicit port connection' is not allowed in this dialect; use SystemVerilog mode instead (VERI-1385) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:129)
+[EFX-0010 VERI-ERROR] syntax error near 'row_id' (VERI-1137) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:129)
+[EFX-0010 VERI-ERROR] module 'IMG_RAM_TOP' is ignored due to previous errors (VERI-1072) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:189)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 14:33:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'row_rdyrow_rdy' on this module (VERI-1010) (D:\dailyFile\FpgaContest\2\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\IMG_RAM_TOP\IMG_RAM_TOP.v:132)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 14:33:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2024 17:09:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_d5_d0' is not declared (VERI-1128) (D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v:486)
+[EFX-0010 VERI-ERROR] 'r_d5d4_plus' is not declared (VERI-1128) (D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v:487)
+[EFX-0010 VERI-ERROR] 'r_d4_d1' is not declared (VERI-1128) (D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v:489)
+[EFX-0010 VERI-ERROR] 'r_d5_d0' is not declared (VERI-1128) (D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v:490)
+[EFX-0010 VERI-ERROR] 'r_d5d4_plus' is not declared (VERI-1128) (D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v:491)
+[EFX-0010 VERI-ERROR] 'r_d4_d1' is not declared (VERI-1128) (D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v:493)
+[EFX-0010 VERI-ERROR] module 'bilinear' is ignored due to previous errors (VERI-1072) (D:\Efinity\project\bilinear\bilinear\02-1_Ti60_OV5640_LCD-HDMI_1080P60\src\USER_LOGIC\HDMI_IMAGE.v:512)
